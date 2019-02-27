@@ -1,12 +1,12 @@
 <map id="/data/jgarcia/linQT/linQT.0.0.03/include/uck_tb_operator.hpp" name="/data/jgarcia/linQT/linQT.0.0.03/include/uck_tb_operator.hpp">
-<area shape="rect" id="node7" href="$types__definitions_8hpp_source.html" title="types_definitions.hpp" alt="" coords="2057,273,2202,300"/>
-<area shape="rect" id="node10" href="$parser_8hpp.html" title="This header defines the parsing functions of the code. They are mostly used to extract parameters fro..." alt="" coords="788,109,871,136"/>
-<area shape="rect" id="node19" href="$dense__matrix_8hpp_source.html" title="dense_matrix.hpp" alt="" coords="1786,109,1911,136"/>
-<area shape="rect" id="node20" href="$sparse_8hpp_source.html" title="sparse.hpp" alt="" coords="1510,109,1597,136"/>
-<area shape="rect" id="node25" href="$vector__algorithm_8hpp_source.html" title="vector_algorithm.hpp" alt="" coords="350,191,493,218"/>
-<area shape="rect" id="node26" href="$uck__tb__operator__error_8hpp_source.html" title="uck_tb_operator_error.hpp" alt="" coords="1936,109,2110,136"/>
-<area shape="rect" id="node27" href="$supercell_8hpp_source.html" title="supercell.hpp" alt="" coords="2135,109,2234,136"/>
-<area shape="rect" id="node13" href="$string__util_8hpp_source.html" title="string_util.hpp" alt="" coords="725,191,828,218"/>
-<area shape="rect" id="node15" href="$parser__error_8hpp.html" title="This header defines the error handlers of the parsing functions defined in parser.hpp . " alt="" coords="938,191,1054,218"/>
-<area shape="rect" id="node21" href="$memory_8hpp_source.html" title="memory.hpp" alt="" coords="1886,191,1981,218"/>
+<area shape="rect" id="node7" href="$types__definitions_8hpp_source.html" title="types_definitions.hpp" alt="" coords="197,273,342,300"/>
+<area shape="rect" id="node10" href="$parser_8hpp.html" title="This header defines the parsing functions of the code. They are mostly used to extract parameters fro..." alt="" coords="1599,109,1681,136"/>
+<area shape="rect" id="node19" href="$dense__matrix_8hpp.html" title="The Dense Matrix Class. A template class which is used to handle two&#45;dimensional arrays within the pr..." alt="" coords="5,191,131,218"/>
+<area shape="rect" id="node20" href="$sparse_8hpp_source.html" title="sparse.hpp" alt="" coords="769,109,855,136"/>
+<area shape="rect" id="node25" href="$vector__algorithm_8hpp_source.html" title="vector_algorithm.hpp" alt="" coords="931,191,1074,218"/>
+<area shape="rect" id="node26" href="$uck__tb__operator__error_8hpp_source.html" title="uck_tb_operator_error.hpp" alt="" coords="279,109,452,136"/>
+<area shape="rect" id="node27" href="$supercell_8hpp_source.html" title="supercell.hpp" alt="" coords="105,109,204,136"/>
+<area shape="rect" id="node13" href="$string__util_8hpp_source.html" title="string_util.hpp" alt="" coords="1659,191,1762,218"/>
+<area shape="rect" id="node15" href="$parser__error_8hpp.html" title="This header defines the error handlers of the parsing functions defined in parser.hpp . " alt="" coords="1873,191,1989,218"/>
+<area shape="rect" id="node21" href="$memory_8hpp_source.html" title="memory.hpp" alt="" coords="358,191,453,218"/>
 </map>

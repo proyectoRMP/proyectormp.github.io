@@ -41,6 +41,8 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
     <ul class="tablist">
       <li><a href="index.html"><span>Main&#160;Page</span></a></li>
       <li><a href="pages.html"><span>Related&#160;Pages</span></a></li>
+      <li><a href="modules.html"><span>Modules</span></a></li>
+      <li><a href="namespaces.html"><span>Namespaces</span></a></li>
       <li class="current"><a href="annotated.html"><span>Classes</span></a></li>
       <li><a href="files.html"><span>Files</span></a></li>
       <li>
@@ -85,7 +87,7 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
 
 <div id="nav-path" class="navpath">
   <ul>
-<li class="navelem"><b>qt</b></li><li class="navelem"><a class="el" href="classqt_1_1UnitCellK__TBOp.html">UnitCellK_TBOp</a></li>  </ul>
+<li class="navelem"><a class="el" href="namespaceqt.html">qt</a></li><li class="navelem"><a class="el" href="classqt_1_1UnitCellK__TBOp.html">UnitCellK_TBOp</a></li>  </ul>
 </div>
 </div><!-- top -->
 <div class="header">
@@ -99,76 +101,42 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-methods"></a>
 Public Member Functions</h2></td></tr>
-<tr class="memitem:a867209b784be7c200e0efd095f4c0248"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classqt_1_1UnitCellK__TBOp.html#a867209b784be7c200e0efd095f4c0248">UnitCellK_TBOp</a> (const qt::integer OpDim=1)</td></tr>
-<tr class="memdesc:a867209b784be7c200e0efd095f4c0248"><td class="mdescLeft">&#160;</td><td class="mdescRight">This constructor allows to initialize the tight-binding operator for systems with dimension OpDim. Optionally, this variable can be omitted and the constructor will assume OpDim=1; This constructor will allocates some memory for the initialization of some of the internal arrays.  <a href="#a867209b784be7c200e0efd095f4c0248">More...</a><br /></td></tr>
+<tr class="memitem:a867209b784be7c200e0efd095f4c0248"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classqt_1_1UnitCellK__TBOp.html#a867209b784be7c200e0efd095f4c0248">UnitCellK_TBOp</a> (const <a class="el" href="namespaceqt.html#ab04c718a6df41a1b3eb02d653cf14c35">qt::integer</a> OpDim=1)</td></tr>
+<tr class="memdesc:a867209b784be7c200e0efd095f4c0248"><td class="mdescLeft">&#160;</td><td class="mdescRight">This constructor creates a tight-binding operator for a system with dimension OpDim. If ommited, the constructor assumes OpDim=1. The constructor allocates some memory for the initialization, but does not allocate the memory for the tight-binding elements of the operator. The tight-binding elements should initialized later with a call to <a class="el" href="classqt_1_1UnitCellK__TBOp.html#a4348ce6b14e9ae4c0e68d32afdb1b3b2" title="Reads a filename containing the operator in .KOP format. Then create a tight-binding operator from it...">readOperator()</a>, which will also allocate the necessary memory.  <a href="#a867209b784be7c200e0efd095f4c0248">More...</a><br /></td></tr>
 <tr class="separator:a867209b784be7c200e0efd095f4c0248"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a964fd4eb5d115a20ea0dfaf9676f0e25"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classqt_1_1UnitCellK__TBOp.html#a964fd4eb5d115a20ea0dfaf9676f0e25">UnitCellK_TBOp</a> (std::string filename)</td></tr>
-<tr class="memdesc:a964fd4eb5d115a20ea0dfaf9676f0e25"><td class="mdescLeft">&#160;</td><td class="mdescRight">This constructor allows to initialize the tight-binding operator for systems defined by a file. This constructor will allocates the necessary memory for hosting the full operator, except for the dense and sparse matrices which need to be initialize with specific methods.  <a href="#a964fd4eb5d115a20ea0dfaf9676f0e25">More...</a><br /></td></tr>
+<tr class="memdesc:a964fd4eb5d115a20ea0dfaf9676f0e25"><td class="mdescLeft">&#160;</td><td class="mdescRight">This constructor reads a filename containing the operator in .KOP format. It will then creates a tight-binding operator from it, allocating all the necessary memory.  <a href="#a964fd4eb5d115a20ea0dfaf9676f0e25">More...</a><br /></td></tr>
 <tr class="separator:a964fd4eb5d115a20ea0dfaf9676f0e25"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a12de40a5ccf5e016f775e8191335b269"><td class="memItemLeft" align="right" valign="top">qt::TightBinding::status&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classqt_1_1UnitCellK__TBOp.html#a12de40a5ccf5e016f775e8191335b269">readOperator</a> (const std::string filename)</td></tr>
-<tr class="memdesc:a12de40a5ccf5e016f775e8191335b269"><td class="mdescLeft">&#160;</td><td class="mdescRight">This Reads the tight-binding operator from operator file which should be placed in the operators directory.  <a href="#a12de40a5ccf5e016f775e8191335b269">More...</a><br /></td></tr>
-<tr class="separator:a12de40a5ccf5e016f775e8191335b269"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a7aa95a2be2748256cec46992b90e7112"><td class="memItemLeft" align="right" valign="top">TightBinding::status&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classqt_1_1UnitCellK__TBOp.html#a7aa95a2be2748256cec46992b90e7112">Multiply</a> (const real a, complex *X, const real b, complex *Y)</td></tr>
-<tr class="memdesc:a7aa95a2be2748256cec46992b90e7112"><td class="mdescLeft">&#160;</td><td class="mdescRight">This Function allows for inclluding the k-dependence into the dense matrix. It does not touch the sparse matrix.  <a href="#a7aa95a2be2748256cec46992b90e7112">More...</a><br /></td></tr>
-<tr class="separator:a7aa95a2be2748256cec46992b90e7112"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a5914bc7f5cc0f0cacae3ce94773ecf0b"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classsparse_1_1ComplexMatrix.html">sparseMatrix</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classqt_1_1UnitCellK__TBOp.html#a5914bc7f5cc0f0cacae3ce94773ecf0b">SparseMatrix</a> () const </td></tr>
-<tr class="memdesc:a5914bc7f5cc0f0cacae3ce94773ecf0b"><td class="mdescLeft">&#160;</td><td class="mdescRight">This Function allows for inclluding the k-dependence into the dense matrix. It does not touch the sparse matrix.  <a href="#a5914bc7f5cc0f0cacae3ce94773ecf0b">More...</a><br /></td></tr>
-<tr class="separator:a5914bc7f5cc0f0cacae3ce94773ecf0b"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a96567927cab9029e8f48dce4c86c4e8b"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classsparse_1_1ComplexMatrix.html">sparseMatrix</a> &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classqt_1_1UnitCellK__TBOp.html#a96567927cab9029e8f48dce4c86c4e8b">SparseMatrix</a> ()</td></tr>
-<tr class="memdesc:a96567927cab9029e8f48dce4c86c4e8b"><td class="mdescLeft">&#160;</td><td class="mdescRight">This Function retuns a reference to the Sparse Matrix representation of the tight-binding operator. The function CreateSparseSuperCell should be called prior this function to ensure a valid sparse matrix.  <a href="#a96567927cab9029e8f48dce4c86c4e8b">More...</a><br /></td></tr>
-<tr class="separator:a96567927cab9029e8f48dce4c86c4e8b"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aa60618b9ddd09b8d1fab810048d94efb"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classsparse_1_1ComplexMatrix.html">sparseMatrix</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classqt_1_1UnitCellK__TBOp.html#aa60618b9ddd09b8d1fab810048d94efb">BoundaryMatrix</a> () const </td></tr>
-<tr class="memdesc:aa60618b9ddd09b8d1fab810048d94efb"><td class="mdescLeft">&#160;</td><td class="mdescRight">This Function retuns a Sparse Matrix which defines the boundary of the tight-binding operator. The function SetSuperCellBoundaries should be called prior this function to ensure a valid sparse matrix.  <a href="#aa60618b9ddd09b8d1fab810048d94efb">More...</a><br /></td></tr>
-<tr class="separator:aa60618b9ddd09b8d1fab810048d94efb"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a500758b5a987332927c488927bab71e2"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classsparse_1_1ComplexMatrix.html">sparseMatrix</a> &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classqt_1_1UnitCellK__TBOp.html#a500758b5a987332927c488927bab71e2">BoundaryMatrix</a> ()</td></tr>
-<tr class="memdesc:a500758b5a987332927c488927bab71e2"><td class="mdescLeft">&#160;</td><td class="mdescRight">This Function retuns a reference to a Sparse Matrix which defines the boundary of the tight-binding operator. The function SetSuperCellBoundaries should be called prior this function to ensure a valid sparse matrix.  <a href="#a500758b5a987332927c488927bab71e2">More...</a><br /></td></tr>
-<tr class="separator:a500758b5a987332927c488927bab71e2"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a75f7b9379f8314c59283640e77210175"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classsparse_1_1ComplexMatrix.html">sparseMatrix</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classqt_1_1UnitCellK__TBOp.html#a75f7b9379f8314c59283640e77210175">PotentialMatrix</a> () const </td></tr>
-<tr class="memdesc:a75f7b9379f8314c59283640e77210175"><td class="mdescLeft">&#160;</td><td class="mdescRight">This Function retuns a Sparse Matrix which defines the potential matrix of the tight-binding operator. The function SetPotentialOperator should be called prior this function to ensure a valid sparse matrix.  <a href="#a75f7b9379f8314c59283640e77210175">More...</a><br /></td></tr>
-<tr class="separator:a75f7b9379f8314c59283640e77210175"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a8f62ae3919ba7674a4c3a268dfe2f4ff"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classsparse_1_1ComplexMatrix.html">sparseMatrix</a> &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classqt_1_1UnitCellK__TBOp.html#a8f62ae3919ba7674a4c3a268dfe2f4ff">PotentialMatrix</a> ()</td></tr>
-<tr class="memdesc:a8f62ae3919ba7674a4c3a268dfe2f4ff"><td class="mdescLeft">&#160;</td><td class="mdescRight">This Function retuns a reference to a Sparse Matrix which defines the potential matrix of the tight-binding operator. The function SetPotentialOperator should be called prior this function to ensure a valid sparse matrix.  <a href="#a8f62ae3919ba7674a4c3a268dfe2f4ff">More...</a><br /></td></tr>
-<tr class="separator:a8f62ae3919ba7674a4c3a268dfe2f4ff"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:af672e3a653b4b61b0278395a0d6031fc"><td class="memItemLeft" align="right" valign="top">TightBinding::status&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classqt_1_1UnitCellK__TBOp.html#af672e3a653b4b61b0278395a0d6031fc">CreateSparseSuperCell</a> (const IntegerArray scDim)</td></tr>
-<tr class="memdesc:af672e3a653b4b61b0278395a0d6031fc"><td class="mdescLeft">&#160;</td><td class="mdescRight">This Function allows for inclluding the k-dependence into the dense matrix. It does not touch the sparse matrix.  <a href="#af672e3a653b4b61b0278395a0d6031fc">More...</a><br /></td></tr>
-<tr class="separator:af672e3a653b4b61b0278395a0d6031fc"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:adfe8658a08af597994a747772427fb7f"><td class="memItemLeft" align="right" valign="top">TightBinding::status&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classqt_1_1UnitCellK__TBOp.html#adfe8658a08af597994a747772427fb7f">SetSuperCellBoundaries</a> (const qt::real kpoint[3], const qt::real scal[3], const qt::real phase[3])</td></tr>
-<tr class="memdesc:adfe8658a08af597994a747772427fb7f"><td class="mdescLeft">&#160;</td><td class="mdescRight">This Function allows for inclluding the k-dependence into the dense matrix. It does not touch the sparse matrix.  <a href="#adfe8658a08af597994a747772427fb7f">More...</a><br /></td></tr>
-<tr class="separator:adfe8658a08af597994a747772427fb7f"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ac88ef8ac14c10cfb15666ef495aabdf6"><td class="memItemLeft" align="right" valign="top">TightBinding::status&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classqt_1_1UnitCellK__TBOp.html#ac88ef8ac14c10cfb15666ef495aabdf6">SetTwistedBoundaries</a> (const qt::real kpoint[3])</td></tr>
-<tr class="memdesc:ac88ef8ac14c10cfb15666ef495aabdf6"><td class="mdescLeft">&#160;</td><td class="mdescRight">This Function allows for inclluding the k-dependence into the dense matrix. It does not touch the sparse matrix.  <a href="#ac88ef8ac14c10cfb15666ef495aabdf6">More...</a><br /></td></tr>
-<tr class="separator:ac88ef8ac14c10cfb15666ef495aabdf6"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a82e466c9601550891a38acafaf985337"><td class="memItemLeft" align="right" valign="top">TightBinding::status&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classqt_1_1UnitCellK__TBOp.html#a82e466c9601550891a38acafaf985337">SetPeriodicBoundaries</a> ()</td></tr>
-<tr class="memdesc:a82e466c9601550891a38acafaf985337"><td class="mdescLeft">&#160;</td><td class="mdescRight">This Function allows for inclluding the k-dependence into the dense matrix. It does not touch the sparse matrix.  <a href="#a82e466c9601550891a38acafaf985337">More...</a><br /></td></tr>
-<tr class="separator:a82e466c9601550891a38acafaf985337"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a8c22692e5a802aff1e0aade980fb6f84"><td class="memItemLeft" align="right" valign="top">TightBinding::status&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classqt_1_1UnitCellK__TBOp.html#a8c22692e5a802aff1e0aade980fb6f84">SetOpenBoundaries</a> ()</td></tr>
-<tr class="memdesc:a8c22692e5a802aff1e0aade980fb6f84"><td class="mdescLeft">&#160;</td><td class="mdescRight">This Function allows for inclluding the k-dependence into the dense matrix. It does not touch the sparse matrix.  <a href="#a8c22692e5a802aff1e0aade980fb6f84">More...</a><br /></td></tr>
-<tr class="separator:a8c22692e5a802aff1e0aade980fb6f84"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ac02d44eaca811d59666646976b7267ff"><td class="memItemLeft" align="right" valign="top">qt::TightBinding::status&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classqt_1_1UnitCellK__TBOp.html#ac02d44eaca811d59666646976b7267ff">SetOperatorDimension</a> (const qt::dimension _OpDim)</td></tr>
-<tr class="memdesc:ac02d44eaca811d59666646976b7267ff"><td class="mdescLeft">&#160;</td><td class="mdescRight">This Function allows for inclluding the k-dependence into the dense matrix. It does not touch the sparse matrix.  <a href="#ac02d44eaca811d59666646976b7267ff">More...</a><br /></td></tr>
-<tr class="separator:ac02d44eaca811d59666646976b7267ff"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aa7c48b04015185702c1d30d1ca302107"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="aa7c48b04015185702c1d30d1ca302107"></a>
-qt::dimension&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classqt_1_1UnitCellK__TBOp.html#aa7c48b04015185702c1d30d1ca302107">Dim</a> () const </td></tr>
-<tr class="memdesc:aa7c48b04015185702c1d30d1ca302107"><td class="mdescLeft">&#160;</td><td class="mdescRight">This Function returns the dimension of the tight-binding operaot. <br /></td></tr>
-<tr class="separator:aa7c48b04015185702c1d30d1ca302107"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aad9b285c9c908d552b097e4b92634819"><td class="memItemLeft" align="right" valign="top">qt::real&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classqt_1_1UnitCellK__TBOp.html#aad9b285c9c908d552b097e4b92634819">Lat</a> (const qt::index i, const qt::index j) const </td></tr>
-<tr class="memdesc:aad9b285c9c908d552b097e4b92634819"><td class="mdescLeft">&#160;</td><td class="mdescRight">This Function returns Lattice Vector Element.  <a href="#aad9b285c9c908d552b097e4b92634819">More...</a><br /></td></tr>
-<tr class="separator:aad9b285c9c908d552b097e4b92634819"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:afba0b8c736dc7c86c536f7c3e044896c"><td class="memItemLeft" align="right" valign="top">qt::real&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classqt_1_1UnitCellK__TBOp.html#afba0b8c736dc7c86c536f7c3e044896c">Rec</a> (const qt::index i, const qt::index j) const </td></tr>
-<tr class="memdesc:afba0b8c736dc7c86c536f7c3e044896c"><td class="mdescLeft">&#160;</td><td class="mdescRight">This Function returns reciprocal Lattice Vector Element.  <a href="#afba0b8c736dc7c86c536f7c3e044896c">More...</a><br /></td></tr>
-<tr class="separator:afba0b8c736dc7c86c536f7c3e044896c"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ac6601b016a985cfe2239a0935da7bace"><td class="memItemLeft" align="right" valign="top">qt::TightBinding::status&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classqt_1_1UnitCellK__TBOp.html#ac6601b016a985cfe2239a0935da7bace">SetSuperCellDimensions</a> (const IntegerVector _scDim)</td></tr>
-<tr class="memdesc:ac6601b016a985cfe2239a0935da7bace"><td class="mdescLeft">&#160;</td><td class="mdescRight">This Function allows to set the value of the dimensions of the supercell. It should be called prior to calling CreateSparseSuperCell and SetSuperCellBoundaries.  <a href="#ac6601b016a985cfe2239a0935da7bace">More...</a><br /></td></tr>
-<tr class="separator:ac6601b016a985cfe2239a0935da7bace"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a3d5c1bd4aff661022b399a2111f65c7b"><td class="memItemLeft" align="right" valign="top">qt::TightBinding::status&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classqt_1_1UnitCellK__TBOp.html#a3d5c1bd4aff661022b399a2111f65c7b">SetLatticeConstant</a> (const qt::real _latConst)</td></tr>
-<tr class="memdesc:a3d5c1bd4aff661022b399a2111f65c7b"><td class="mdescLeft">&#160;</td><td class="mdescRight">This Function allows to set the value of the lattice constant of the tight-binding operator, rescaling the lattice vectors.  <a href="#a3d5c1bd4aff661022b399a2111f65c7b">More...</a><br /></td></tr>
-<tr class="separator:a3d5c1bd4aff661022b399a2111f65c7b"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a9aa3e3471a1d5335abe91ca27c57fb92"><td class="memItemLeft" align="right" valign="top">qt::real&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classqt_1_1UnitCellK__TBOp.html#a9aa3e3471a1d5335abe91ca27c57fb92">LatConst</a> () const </td></tr>
-<tr class="memdesc:a9aa3e3471a1d5335abe91ca27c57fb92"><td class="mdescLeft">&#160;</td><td class="mdescRight">This Function returns the lattice constant.  <a href="#a9aa3e3471a1d5335abe91ca27c57fb92">More...</a><br /></td></tr>
-<tr class="separator:a9aa3e3471a1d5335abe91ca27c57fb92"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a5b58a0da366a7f1b25a47442d42bff1c"><td class="memItemLeft" align="right" valign="top">qt::index&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classqt_1_1UnitCellK__TBOp.html#a5b58a0da366a7f1b25a47442d42bff1c">LatticeVolume</a> () const </td></tr>
-<tr class="memdesc:a5b58a0da366a7f1b25a47442d42bff1c"><td class="mdescLeft">&#160;</td><td class="mdescRight">This returns the lattice volume.  <a href="#a5b58a0da366a7f1b25a47442d42bff1c">More...</a><br /></td></tr>
-<tr class="separator:a5b58a0da366a7f1b25a47442d42bff1c"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a4348ce6b14e9ae4c0e68d32afdb1b3b2"><td class="memItemLeft" align="right" valign="top">status&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classqt_1_1UnitCellK__TBOp.html#a4348ce6b14e9ae4c0e68d32afdb1b3b2">readOperator</a> (const std::string filename)</td></tr>
+<tr class="memdesc:a4348ce6b14e9ae4c0e68d32afdb1b3b2"><td class="mdescLeft">&#160;</td><td class="mdescRight">Reads a filename containing the operator in .KOP format. Then create a tight-binding operator from it, allocating all the necessary memory.  <a href="#a4348ce6b14e9ae4c0e68d32afdb1b3b2">More...</a><br /></td></tr>
+<tr class="separator:a4348ce6b14e9ae4c0e68d32afdb1b3b2"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:af88f4938debc15da849322c89bc2d8fa"><td class="memItemLeft" align="right" valign="top">status&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classqt_1_1UnitCellK__TBOp.html#af88f4938debc15da849322c89bc2d8fa">SetOperatorDimension</a> (const <a class="el" href="namespaceqt.html#ab04c718a6df41a1b3eb02d653cf14c35">integer</a> _OpDim)</td></tr>
+<tr class="memdesc:af88f4938debc15da849322c89bc2d8fa"><td class="mdescLeft">&#160;</td><td class="mdescRight">This Function sets the dimension of the operator. It discard all previous data and resize the inner arrays for the new size of the tight binding operator.  <a href="#af88f4938debc15da849322c89bc2d8fa">More...</a><br /></td></tr>
+<tr class="separator:af88f4938debc15da849322c89bc2d8fa"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a173704caf10b39a91c3a33fb046f5568"><td class="memItemLeft" align="right" valign="top"><a class="el" href="namespaceqt.html#a846ecdfdec53b1821a9d56e80489a0fe">index</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classqt_1_1UnitCellK__TBOp.html#a173704caf10b39a91c3a33fb046f5568">Dim</a> () const </td></tr>
+<tr class="memdesc:a173704caf10b39a91c3a33fb046f5568"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns the dimension of the tight-binding operator.  <a href="#a173704caf10b39a91c3a33fb046f5568">More...</a><br /></td></tr>
+<tr class="separator:a173704caf10b39a91c3a33fb046f5568"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ad6d9a4742359f36080fef39bd4a1d372"><td class="memItemLeft" align="right" valign="top"><a class="el" href="namespaceqt.html#a78e55a46d703737949233f928ba08808">real</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classqt_1_1UnitCellK__TBOp.html#ad6d9a4742359f36080fef39bd4a1d372">Lat</a> (const <a class="el" href="namespaceqt.html#ab04c718a6df41a1b3eb02d653cf14c35">integer</a> i, const <a class="el" href="namespaceqt.html#ab04c718a6df41a1b3eb02d653cf14c35">integer</a> j) const </td></tr>
+<tr class="memdesc:ad6d9a4742359f36080fef39bd4a1d372"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns the j-component of the i-th lattice vector. The indexes are assume to follow zero-based convention.  <a href="#ad6d9a4742359f36080fef39bd4a1d372">More...</a><br /></td></tr>
+<tr class="separator:ad6d9a4742359f36080fef39bd4a1d372"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a3fca0a3d128967bd09c003d1b2de8087"><td class="memItemLeft" align="right" valign="top"><a class="el" href="namespaceqt.html#a78e55a46d703737949233f928ba08808">real</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classqt_1_1UnitCellK__TBOp.html#a3fca0a3d128967bd09c003d1b2de8087">Rec</a> (const <a class="el" href="namespaceqt.html#ab04c718a6df41a1b3eb02d653cf14c35">integer</a> i, const <a class="el" href="namespaceqt.html#ab04c718a6df41a1b3eb02d653cf14c35">integer</a> j) const </td></tr>
+<tr class="memdesc:a3fca0a3d128967bd09c003d1b2de8087"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns the j-component of the i-th reciprocal lattice vector. The indexes are assume to follow zero-based convention.  <a href="#a3fca0a3d128967bd09c003d1b2de8087">More...</a><br /></td></tr>
+<tr class="separator:a3fca0a3d128967bd09c003d1b2de8087"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a98c43b35948e8afdad704a28e9deca82"><td class="memItemLeft" align="right" valign="top">status&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classqt_1_1UnitCellK__TBOp.html#a98c43b35948e8afdad704a28e9deca82">SetSuperCellDimensions</a> (const <a class="el" href="namespaceqt.html#abfecec294b27c34cf18cbccb2bc6c671">IntegerVector</a> _scDim)</td></tr>
+<tr class="memdesc:a98c43b35948e8afdad704a28e9deca82"><td class="mdescLeft">&#160;</td><td class="mdescRight">This Function set the value of the dimensions of the supercell. It should be called prior to calling CreateSparseSuperCell() and SetSuperCellBoundaries()  <a href="#a98c43b35948e8afdad704a28e9deca82">More...</a><br /></td></tr>
+<tr class="separator:a98c43b35948e8afdad704a28e9deca82"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a188c042b04c62539be08eae8d3c19e53"><td class="memItemLeft" align="right" valign="top">status&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classqt_1_1UnitCellK__TBOp.html#a188c042b04c62539be08eae8d3c19e53">SetLatticeConstant</a> (const <a class="el" href="namespaceqt.html#a78e55a46d703737949233f928ba08808">real</a> _latConst)</td></tr>
+<tr class="memdesc:a188c042b04c62539be08eae8d3c19e53"><td class="mdescLeft">&#160;</td><td class="mdescRight">This Function allows to set the value of the lattice constant of the tight-binding operator and then rescales the lattice vectors.  <a href="#a188c042b04c62539be08eae8d3c19e53">More...</a><br /></td></tr>
+<tr class="separator:a188c042b04c62539be08eae8d3c19e53"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:abbb8b163b61747fd410a633804258871"><td class="memItemLeft" align="right" valign="top"><a class="el" href="namespaceqt.html#a78e55a46d703737949233f928ba08808">real</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classqt_1_1UnitCellK__TBOp.html#abbb8b163b61747fd410a633804258871">LatConst</a> () const </td></tr>
+<tr class="memdesc:abbb8b163b61747fd410a633804258871"><td class="mdescLeft">&#160;</td><td class="mdescRight">This Function returns the lattice constant.  <a href="#abbb8b163b61747fd410a633804258871">More...</a><br /></td></tr>
+<tr class="separator:abbb8b163b61747fd410a633804258871"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a5c116ab65f6b682d0f1b322d3c5a3981"><td class="memItemLeft" align="right" valign="top"><a class="el" href="namespaceqt.html#a78e55a46d703737949233f928ba08808">real</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classqt_1_1UnitCellK__TBOp.html#a5c116ab65f6b682d0f1b322d3c5a3981">LatticeVolume</a> () const </td></tr>
+<tr class="memdesc:a5c116ab65f6b682d0f1b322d3c5a3981"><td class="mdescLeft">&#160;</td><td class="mdescRight">This returns the lattice volume.  <a href="#a5c116ab65f6b682d0f1b322d3c5a3981">More...</a><br /></td></tr>
+<tr class="separator:a5c116ab65f6b682d0f1b322d3c5a3981"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a8f9d87b31afb8d08a295e3112ba9b6b4"><td class="memItemLeft" align="right" valign="top">status&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classqt_1_1UnitCellK__TBOp.html#a8f9d87b31afb8d08a295e3112ba9b6b4">Multiply</a> (const <a class="el" href="namespaceqt.html#a78e55a46d703737949233f928ba08808">real</a> a, <a class="el" href="namespaceqt.html#ae139831a2d12ba449da4c5a8d9b8a9ed">complex</a> *X, const <a class="el" href="namespaceqt.html#a78e55a46d703737949233f928ba08808">real</a> b, <a class="el" href="namespaceqt.html#ae139831a2d12ba449da4c5a8d9b8a9ed">complex</a> *Y)</td></tr>
+<tr class="memdesc:a8f9d87b31afb8d08a295e3112ba9b6b4"><td class="mdescLeft">&#160;</td><td class="mdescRight">This Function perform the linear transformation <img class="formulaInl" alt="$ y = O \,a|x\rangle +b|y\rangle $" src="form_88.png"/>. Here, |x and |y are complex state vectors store in a continous array, and a and b are real scalars. To improve efficiency, this function does not check for out of bound errors, therefore should be check prior calling this function.  <a href="#a8f9d87b31afb8d08a295e3112ba9b6b4">More...</a><br /></td></tr>
+<tr class="separator:a8f9d87b31afb8d08a295e3112ba9b6b4"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
 <a class="anchor" id="a867209b784be7c200e0efd095f4c0248"></a>
@@ -181,7 +149,7 @@ qt::dimension&#160;</td><td class="memItemRight" valign="bottom"><a class="el" h
         <tr>
           <td class="memname">qt::UnitCellK_TBOp::UnitCellK_TBOp </td>
           <td>(</td>
-          <td class="paramtype">const qt::integer&#160;</td>
+          <td class="paramtype">const <a class="el" href="namespaceqt.html#ab04c718a6df41a1b3eb02d653cf14c35">qt::integer</a>&#160;</td>
           <td class="paramname"><em>OpDim</em> = <code>1</code></td><td>)</td>
           <td></td>
         </tr>
@@ -193,7 +161,7 @@ qt::dimension&#160;</td><td class="memItemRight" valign="bottom"><a class="el" h
 </table>
 </div><div class="memdoc">
 
-<p>This constructor allows to initialize the tight-binding operator for systems with dimension OpDim. Optionally, this variable can be omitted and the constructor will assume OpDim=1; This constructor will allocates some memory for the initialization of some of the internal arrays. </p>
+<p>This constructor creates a tight-binding operator for a system with dimension OpDim. If ommited, the constructor assumes OpDim=1. The constructor allocates some memory for the initialization, but does not allocate the memory for the tight-binding elements of the operator. The tight-binding elements should initialized later with a call to <a class="el" href="classqt_1_1UnitCellK__TBOp.html#a4348ce6b14e9ae4c0e68d32afdb1b3b2" title="Reads a filename containing the operator in .KOP format. Then create a tight-binding operator from it...">readOperator()</a>, which will also allocate the necessary memory. </p>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
     <tr><td class="paramname">OpDim.</td><td>Operator's Dimensions. </td></tr>
@@ -225,10 +193,10 @@ qt::dimension&#160;</td><td class="memItemRight" valign="bottom"><a class="el" h
 </table>
 </div><div class="memdoc">
 
-<p>This constructor allows to initialize the tight-binding operator for systems defined by a file. This constructor will allocates the necessary memory for hosting the full operator, except for the dense and sparse matrices which need to be initialize with specific methods. </p>
+<p>This constructor reads a filename containing the operator in .KOP format. It will then creates a tight-binding operator from it, allocating all the necessary memory. </p>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
-    <tr><td class="paramname">filename.</td><td>String with the name of the operator </td></tr>
+    <tr><td class="paramname">Filename.</td><td>Name of the operator file. </td></tr>
   </table>
   </dd>
 </dl>
@@ -236,7 +204,7 @@ qt::dimension&#160;</td><td class="memItemRight" valign="bottom"><a class="el" h
 </div>
 </div>
 <h2 class="groupheader">Member Function Documentation</h2>
-<a class="anchor" id="aa60618b9ddd09b8d1fab810048d94efb"></a>
+<a class="anchor" id="a173704caf10b39a91c3a33fb046f5568"></a>
 <div class="memitem">
 <div class="memproto">
 <table class="mlabels">
@@ -244,7 +212,7 @@ qt::dimension&#160;</td><td class="memItemRight" valign="bottom"><a class="el" h
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="classsparse_1_1ComplexMatrix.html">sparseMatrix</a> qt::UnitCellK_TBOp::BoundaryMatrix </td>
+          <td class="memname"><a class="el" href="namespaceqt.html#a846ecdfdec53b1821a9d56e80489a0fe">index</a> qt::UnitCellK_TBOp::Dim </td>
           <td>(</td>
           <td class="paramname"></td><td>)</td>
           <td> const</td>
@@ -257,12 +225,12 @@ qt::dimension&#160;</td><td class="memItemRight" valign="bottom"><a class="el" h
 </table>
 </div><div class="memdoc">
 
-<p>This Function retuns a Sparse Matrix which defines the boundary of the tight-binding operator. The function SetSuperCellBoundaries should be called prior this function to ensure a valid sparse matrix. </p>
-<dl class="section return"><dt>Returns</dt><dd>SparseMatrix </dd></dl>
+<p>Returns the dimension of the tight-binding operator. </p>
+<dl class="section return"><dt>Returns</dt><dd>OpDim Dimension of the tight-binding operator </dd></dl>
 
 </div>
 </div>
-<a class="anchor" id="a500758b5a987332927c488927bab71e2"></a>
+<a class="anchor" id="ad6d9a4742359f36080fef39bd4a1d372"></a>
 <div class="memitem">
 <div class="memproto">
 <table class="mlabels">
@@ -270,73 +238,15 @@ qt::dimension&#160;</td><td class="memItemRight" valign="bottom"><a class="el" h
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="classsparse_1_1ComplexMatrix.html">sparseMatrix</a>&amp; qt::UnitCellK_TBOp::BoundaryMatrix </td>
+          <td class="memname"><a class="el" href="namespaceqt.html#a78e55a46d703737949233f928ba08808">real</a> qt::UnitCellK_TBOp::Lat </td>
           <td>(</td>
-          <td class="paramname"></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-<p>This Function retuns a reference to a Sparse Matrix which defines the boundary of the tight-binding operator. The function SetSuperCellBoundaries should be called prior this function to ensure a valid sparse matrix. </p>
-<dl class="section return"><dt>Returns</dt><dd>SparseMatrix </dd></dl>
-
-</div>
-</div>
-<a class="anchor" id="af672e3a653b4b61b0278395a0d6031fc"></a>
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">TightBinding::status qt::UnitCellK_TBOp::CreateSparseSuperCell </td>
-          <td>(</td>
-          <td class="paramtype">const IntegerArray&#160;</td>
-          <td class="paramname"><em>scDim</em></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-<p>This Function allows for inclluding the k-dependence into the dense matrix. It does not touch the sparse matrix. </p>
-<dl class="params"><dt>Parameters</dt><dd>
-  <table class="params">
-    <tr><td class="paramname">kpoint.</td><td>Array containing three elements </td></tr>
-  </table>
-  </dd>
-</dl>
-<dl class="section return"><dt>Returns</dt><dd>TightBinding::status This Function allows for inclluding the k-dependence into the dense matrix. It does not touch the sparse matrix. </dd></dl>
-<dl class="params"><dt>Parameters</dt><dd>
-  <table class="params">
-    <tr><td class="paramname">kpoint.</td><td>Array containing three elements </td></tr>
-  </table>
-  </dd>
-</dl>
-<dl class="section return"><dt>Returns</dt><dd>TightBinding::status </dd></dl>
-
-</div>
-</div>
-<a class="anchor" id="aad9b285c9c908d552b097e4b92634819"></a>
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">qt::real qt::UnitCellK_TBOp::Lat </td>
-          <td>(</td>
-          <td class="paramtype">const qt::index&#160;</td>
+          <td class="paramtype">const <a class="el" href="namespaceqt.html#ab04c718a6df41a1b3eb02d653cf14c35">integer</a>&#160;</td>
           <td class="paramname"><em>i</em>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype">const qt::index&#160;</td>
+          <td class="paramtype">const <a class="el" href="namespaceqt.html#ab04c718a6df41a1b3eb02d653cf14c35">integer</a>&#160;</td>
           <td class="paramname"><em>j</em>&#160;</td>
         </tr>
         <tr>
@@ -352,20 +262,19 @@ qt::dimension&#160;</td><td class="memItemRight" valign="bottom"><a class="el" h
 </table>
 </div><div class="memdoc">
 
-<p>This Function returns Lattice Vector Element. </p>
+<p>Returns the j-component of the i-th lattice vector. The indexes are assume to follow zero-based convention. </p>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
-    <tr><td class="paramname">kpoint.</td><td>Array containing three elements </td></tr>
-    <tr><td class="paramname">kpoint.</td><td>Array containing three elements </td></tr>
-    <tr><td class="paramname">kpoint.</td><td>Array containing three elements </td></tr>
+    <tr><td class="paramname">i</td><td>Identifier of the lattice vector <img class="formulaInl" alt="$ \vec{{\rm lat}}_{i}$" src="form_89.png"/> </td></tr>
+    <tr><td class="paramname">j</td><td>Identifier of the component <img class="formulaInl" alt="$ {\rm lat}_{i,j}$" src="form_90.png"/> where <img class="formulaInl" alt="$ j=0,1,2 \rightarrow j=x,y,z $" src="form_91.png"/>. </td></tr>
   </table>
   </dd>
 </dl>
-<dl class="section return"><dt>Returns</dt><dd>TightBinding::status </dd></dl>
+<dl class="section return"><dt>Returns</dt><dd><img class="formulaInl" alt="$ {\rm lat}_{i,j}$" src="form_90.png"/> The j-component of the i-th lattice vector </dd></dl>
 
 </div>
 </div>
-<a class="anchor" id="a9aa3e3471a1d5335abe91ca27c57fb92"></a>
+<a class="anchor" id="abbb8b163b61747fd410a633804258871"></a>
 <div class="memitem">
 <div class="memproto">
 <table class="mlabels">
@@ -373,7 +282,7 @@ qt::dimension&#160;</td><td class="memItemRight" valign="bottom"><a class="el" h
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">qt::real qt::UnitCellK_TBOp::LatConst </td>
+          <td class="memname"><a class="el" href="namespaceqt.html#a78e55a46d703737949233f928ba08808">real</a> qt::UnitCellK_TBOp::LatConst </td>
           <td>(</td>
           <td class="paramname"></td><td>)</td>
           <td> const</td>
@@ -387,11 +296,11 @@ qt::dimension&#160;</td><td class="memItemRight" valign="bottom"><a class="el" h
 </div><div class="memdoc">
 
 <p>This Function returns the lattice constant. </p>
-<dl class="section return"><dt>Returns</dt><dd>TightBinding::status </dd></dl>
+<dl class="section return"><dt>Returns</dt><dd>latConst Returns a real scalar containing the lattice constant </dd></dl>
 
 </div>
 </div>
-<a class="anchor" id="a5b58a0da366a7f1b25a47442d42bff1c"></a>
+<a class="anchor" id="a5c116ab65f6b682d0f1b322d3c5a3981"></a>
 <div class="memitem">
 <div class="memproto">
 <table class="mlabels">
@@ -399,7 +308,7 @@ qt::dimension&#160;</td><td class="memItemRight" valign="bottom"><a class="el" h
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">qt::index qt::UnitCellK_TBOp::LatticeVolume </td>
+          <td class="memname"><a class="el" href="namespaceqt.html#a78e55a46d703737949233f928ba08808">real</a> qt::UnitCellK_TBOp::LatticeVolume </td>
           <td>(</td>
           <td class="paramname"></td><td>)</td>
           <td> const</td>
@@ -413,36 +322,36 @@ qt::dimension&#160;</td><td class="memItemRight" valign="bottom"><a class="el" h
 </div><div class="memdoc">
 
 <p>This returns the lattice volume. </p>
-<dl class="section return"><dt>Returns</dt><dd>TightBinding::status </dd></dl>
+<dl class="section return"><dt>Returns</dt><dd>latVol Returns a real scalar containing the lattice volume </dd></dl>
 
 </div>
 </div>
-<a class="anchor" id="a7aa95a2be2748256cec46992b90e7112"></a>
+<a class="anchor" id="a8f9d87b31afb8d08a295e3112ba9b6b4"></a>
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">TightBinding::status qt::UnitCellK_TBOp::Multiply </td>
+          <td class="memname">status qt::UnitCellK_TBOp::Multiply </td>
           <td>(</td>
-          <td class="paramtype">const real&#160;</td>
+          <td class="paramtype">const <a class="el" href="namespaceqt.html#a78e55a46d703737949233f928ba08808">real</a>&#160;</td>
           <td class="paramname"><em>a</em>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype">complex *&#160;</td>
+          <td class="paramtype"><a class="el" href="namespaceqt.html#ae139831a2d12ba449da4c5a8d9b8a9ed">complex</a> *&#160;</td>
           <td class="paramname"><em>X</em>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype">const real&#160;</td>
+          <td class="paramtype">const <a class="el" href="namespaceqt.html#a78e55a46d703737949233f928ba08808">real</a>&#160;</td>
           <td class="paramname"><em>b</em>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype">complex *&#160;</td>
+          <td class="paramtype"><a class="el" href="namespaceqt.html#ae139831a2d12ba449da4c5a8d9b8a9ed">complex</a> *&#160;</td>
           <td class="paramname"><em>Y</em>&#160;</td>
         </tr>
         <tr>
@@ -453,112 +362,26 @@ qt::dimension&#160;</td><td class="memItemRight" valign="bottom"><a class="el" h
       </table>
 </div><div class="memdoc">
 
-<p>This Function allows for inclluding the k-dependence into the dense matrix. It does not touch the sparse matrix. </p>
+<p>This Function perform the linear transformation <img class="formulaInl" alt="$ y = O \,a|x\rangle +b|y\rangle $" src="form_88.png"/>. Here, |x and |y are complex state vectors store in a continous array, and a and b are real scalars. To improve efficiency, this function does not check for out of bound errors, therefore should be check prior calling this function. </p>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
-    <tr><td class="paramname">kpoint.</td><td>Array containing three elements </td></tr>
+    <tr><td class="paramname">a.</td><td>A scalar paramater that will scale the input vector </td></tr>
+    <tr><td class="paramname">X.</td><td>A pointer to a complex array where the input vector is located. </td></tr>
+    <tr><td class="paramname">b.</td><td>A scalar paramater that will scale the ouput vector </td></tr>
+    <tr><td class="paramname">Y.</td><td>A pointer to a complex array where the output vector is located. </td></tr>
   </table>
   </dd>
 </dl>
-<dl class="section return"><dt>Returns</dt><dd>TightBinding::status This Function allows for adding a new entry to the operator It is specially useful when used to create an operator matrix in the tight-binding generator utility. </dd></dl>
-<dl class="params"><dt>Parameters</dt><dd>
-  <table class="params">
-    <tr><td class="paramname">Row.</td><td>String with the name of the operator </td></tr>
-    <tr><td class="paramname">Column.</td><td>String with the name of the operator </td></tr>
-    <tr><td class="paramname">Value.</td><td>String with the name of the operator </td></tr>
-    <tr><td class="paramname">Shift_0.</td><td>String with the name of the operator </td></tr>
-    <tr><td class="paramname">Shift_1.</td><td>String with the name of the operator </td></tr>
-    <tr><td class="paramname">Shift_2.</td><td>String with the name of the operator </td></tr>
-  </table>
-  </dd>
-</dl>
-<dl class="section return"><dt>Returns</dt><dd>TightBinding::status This Function allows for inclluding the k-dependence into the dense matrix. It does not touch the sparse matrix. </dd></dl>
-<dl class="params"><dt>Parameters</dt><dd>
-  <table class="params">
-    <tr><td class="paramname">kpoint.</td><td>Array containing three elements </td></tr>
-  </table>
-  </dd>
-</dl>
-<dl class="section return"><dt>Returns</dt><dd>TightBinding::status This Function allows for inclluding the k-dependence into the dense matrix. It does not touch the sparse matrix. </dd></dl>
-<dl class="params"><dt>Parameters</dt><dd>
-  <table class="params">
-    <tr><td class="paramname">kpoint.</td><td>Array containing three elements </td></tr>
-  </table>
-  </dd>
-</dl>
-<dl class="section return"><dt>Returns</dt><dd>TightBinding::status This returns the Dense matrix representation of the tight-binding operator, previously initialize with the method Addk_dependence or SetBoundaryCondition </dd>
-<dd>
-DenseMatrix This returns a reference to the Dense matrix representation of the tight-binding operator, previously initialize with the method Addk_dependence or SetBoundaryCondition </dd>
-<dd>
-Reference to DenseMatrix This Function allows for inclluding the k-dependence into the dense matrix. It does not touch the sparse matrix. </dd></dl>
-<dl class="params"><dt>Parameters</dt><dd>
-  <table class="params">
-    <tr><td class="paramname">kpoint.</td><td>Array containing three elements </td></tr>
-  </table>
-  </dd>
-</dl>
-<dl class="section return"><dt>Returns</dt><dd>TightBinding::status </dd></dl>
+<dl class="section return"><dt>Returns</dt><dd>status The status is a datatype defined in <a class="el" href="uck__tb__operator__error_8hpp_source.html">uck_tb_operator_error.hpp</a>, returning TightBinding::status::SUCCESS if successful or TightBinding::status::FAILURE otherwise. </dd></dl>
 
 </div>
 </div>
-<a class="anchor" id="a75f7b9379f8314c59283640e77210175"></a>
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname"><a class="el" href="classsparse_1_1ComplexMatrix.html">sparseMatrix</a> qt::UnitCellK_TBOp::PotentialMatrix </td>
-          <td>(</td>
-          <td class="paramname"></td><td>)</td>
-          <td> const</td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-<p>This Function retuns a Sparse Matrix which defines the potential matrix of the tight-binding operator. The function SetPotentialOperator should be called prior this function to ensure a valid sparse matrix. </p>
-<dl class="section return"><dt>Returns</dt><dd>SparseMatrix </dd></dl>
-
-</div>
-</div>
-<a class="anchor" id="a8f62ae3919ba7674a4c3a268dfe2f4ff"></a>
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname"><a class="el" href="classsparse_1_1ComplexMatrix.html">sparseMatrix</a>&amp; qt::UnitCellK_TBOp::PotentialMatrix </td>
-          <td>(</td>
-          <td class="paramname"></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-<p>This Function retuns a reference to a Sparse Matrix which defines the potential matrix of the tight-binding operator. The function SetPotentialOperator should be called prior this function to ensure a valid sparse matrix. </p>
-<dl class="section return"><dt>Returns</dt><dd>SparseMatrix </dd></dl>
-
-</div>
-</div>
-<a class="anchor" id="a12de40a5ccf5e016f775e8191335b269"></a>
+<a class="anchor" id="a4348ce6b14e9ae4c0e68d32afdb1b3b2"></a>
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">qt::TightBinding::status qt::UnitCellK_TBOp::readOperator </td>
+          <td class="memname">status qt::UnitCellK_TBOp::readOperator </td>
           <td>(</td>
           <td class="paramtype">const std::string&#160;</td>
           <td class="paramname"><em>filename</em></td><td>)</td>
@@ -567,18 +390,18 @@ Reference to DenseMatrix This Function allows for inclluding the k-dependence in
       </table>
 </div><div class="memdoc">
 
-<p>This Reads the tight-binding operator from operator file which should be placed in the operators directory. </p>
+<p>Reads a filename containing the operator in .KOP format. Then create a tight-binding operator from it, allocating all the necessary memory. </p>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
-    <tr><td class="paramname">Filename.</td><td>String containing the main of the configuration file </td></tr>
+    <tr><td class="paramname">Filename.</td><td>Name of the operator file. </td></tr>
   </table>
   </dd>
 </dl>
-<dl class="section return"><dt>Returns</dt><dd>TightBinding::status </dd></dl>
+<dl class="section return"><dt>Returns</dt><dd>status The status is a datatype defined in <a class="el" href="uck__tb__operator__error_8hpp_source.html">uck_tb_operator_error.hpp</a>, returning TightBinding::status::SUCCESS if successful or TightBinding::status::FAILURE otherwise. </dd></dl>
 
 </div>
 </div>
-<a class="anchor" id="afba0b8c736dc7c86c536f7c3e044896c"></a>
+<a class="anchor" id="a3fca0a3d128967bd09c003d1b2de8087"></a>
 <div class="memitem">
 <div class="memproto">
 <table class="mlabels">
@@ -586,15 +409,15 @@ Reference to DenseMatrix This Function allows for inclluding the k-dependence in
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">qt::real qt::UnitCellK_TBOp::Rec </td>
+          <td class="memname"><a class="el" href="namespaceqt.html#a78e55a46d703737949233f928ba08808">real</a> qt::UnitCellK_TBOp::Rec </td>
           <td>(</td>
-          <td class="paramtype">const qt::index&#160;</td>
+          <td class="paramtype">const <a class="el" href="namespaceqt.html#ab04c718a6df41a1b3eb02d653cf14c35">integer</a>&#160;</td>
           <td class="paramname"><em>i</em>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype">const qt::index&#160;</td>
+          <td class="paramtype">const <a class="el" href="namespaceqt.html#ab04c718a6df41a1b3eb02d653cf14c35">integer</a>&#160;</td>
           <td class="paramname"><em>j</em>&#160;</td>
         </tr>
         <tr>
@@ -610,34 +433,33 @@ Reference to DenseMatrix This Function allows for inclluding the k-dependence in
 </table>
 </div><div class="memdoc">
 
-<p>This Function returns reciprocal Lattice Vector Element. </p>
+<p>Returns the j-component of the i-th reciprocal lattice vector. The indexes are assume to follow zero-based convention. </p>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
-    <tr><td class="paramname">kpoint.</td><td>Array containing three elements </td></tr>
-    <tr><td class="paramname">kpoint.</td><td>Array containing three elements </td></tr>
-    <tr><td class="paramname">kpoint.</td><td>Array containing three elements </td></tr>
+    <tr><td class="paramname">i</td><td>Identifier of the lattice vector <img class="formulaInl" alt="$ \vec{{\rm rec}}_{i}$" src="form_92.png"/> </td></tr>
+    <tr><td class="paramname">j</td><td>Identifier of the component <img class="formulaInl" alt="$ {\rm rec}_{i,j}$" src="form_93.png"/> where <img class="formulaInl" alt="$ j=0,1,2 \rightarrow j=x,y,z $" src="form_91.png"/>. </td></tr>
   </table>
   </dd>
 </dl>
-<dl class="section return"><dt>Returns</dt><dd>TightBinding::status </dd></dl>
+<dl class="section return"><dt>Returns</dt><dd><img class="formulaInl" alt="$ {\rm rec}_{i,j}$" src="form_93.png"/> The j-component of the i-th reciprocal lattice vector </dd></dl>
 
 </div>
 </div>
-<a class="anchor" id="a3d5c1bd4aff661022b399a2111f65c7b"></a>
+<a class="anchor" id="a188c042b04c62539be08eae8d3c19e53"></a>
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">qt::TightBinding::status qt::UnitCellK_TBOp::SetLatticeConstant </td>
+          <td class="memname">status qt::UnitCellK_TBOp::SetLatticeConstant </td>
           <td>(</td>
-          <td class="paramtype">const qt::real&#160;</td>
+          <td class="paramtype">const <a class="el" href="namespaceqt.html#a78e55a46d703737949233f928ba08808">real</a>&#160;</td>
           <td class="paramname"><em>_latConst</em></td><td>)</td>
           <td></td>
         </tr>
       </table>
 </div><div class="memdoc">
 
-<p>This Function allows to set the value of the lattice constant of the tight-binding operator, rescaling the lattice vectors. </p>
+<p>This Function allows to set the value of the lattice constant of the tight-binding operator and then rescales the lattice vectors. </p>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
     <tr><td class="paramname">Lattice_Vector_Index.</td><td></td></tr>
@@ -645,74 +467,36 @@ Reference to DenseMatrix This Function allows for inclluding the k-dependence in
   </table>
   </dd>
 </dl>
-<dl class="section return"><dt>Returns</dt><dd>TightBinding::status </dd></dl>
+<dl class="section return"><dt>Returns</dt><dd>status The status is a datatype defined in <a class="el" href="uck__tb__operator__error_8hpp_source.html">uck_tb_operator_error.hpp</a>, returning TightBinding::status::SUCCESS if successful or TightBinding::status::FAILURE otherwise. </dd></dl>
 
 </div>
 </div>
-<a class="anchor" id="a8c22692e5a802aff1e0aade980fb6f84"></a>
+<a class="anchor" id="af88f4938debc15da849322c89bc2d8fa"></a>
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">TightBinding::status qt::UnitCellK_TBOp::SetOpenBoundaries </td>
+          <td class="memname">status qt::UnitCellK_TBOp::SetOperatorDimension </td>
           <td>(</td>
-          <td class="paramname"></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-<p>This Function allows for inclluding the k-dependence into the dense matrix. It does not touch the sparse matrix. </p>
-<dl class="params"><dt>Parameters</dt><dd>
-  <table class="params">
-    <tr><td class="paramname">kpoint.</td><td>Array containing three elements </td></tr>
-  </table>
-  </dd>
-</dl>
-<dl class="section return"><dt>Returns</dt><dd>TightBinding::status </dd></dl>
-
-</div>
-</div>
-<a class="anchor" id="ac02d44eaca811d59666646976b7267ff"></a>
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">qt::TightBinding::status qt::UnitCellK_TBOp::SetOperatorDimension </td>
-          <td>(</td>
-          <td class="paramtype">const qt::dimension&#160;</td>
+          <td class="paramtype">const <a class="el" href="namespaceqt.html#ab04c718a6df41a1b3eb02d653cf14c35">integer</a>&#160;</td>
           <td class="paramname"><em>_OpDim</em></td><td>)</td>
           <td></td>
         </tr>
       </table>
 </div><div class="memdoc">
 
-<p>This Function allows for inclluding the k-dependence into the dense matrix. It does not touch the sparse matrix. </p>
-<dl class="params"><dt>Parameters</dt><dd>
-  <table class="params">
-    <tr><td class="paramname">kpoint.</td><td>Array containing three elements </td></tr>
-  </table>
-  </dd>
-</dl>
-<dl class="section return"><dt>Returns</dt><dd>TightBinding::status This Function allows for inclluding the k-dependence into the dense matrix. It does not touch the sparse matrix. </dd></dl>
-<dl class="params"><dt>Parameters</dt><dd>
-  <table class="params">
-    <tr><td class="paramname">kpoint.</td><td>Array containing three elements </td></tr>
-  </table>
-  </dd>
-</dl>
-<dl class="section return"><dt>Returns</dt><dd>TightBinding::status This Function sets the dimension of the operator. It discard all previous data and resize the inner arrays for containing the new size of the tight binding operator </dd></dl>
+<p>This Function sets the dimension of the operator. It discard all previous data and resize the inner arrays for the new size of the tight binding operator. </p>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
     <tr><td class="paramname">NewOpDim</td><td>New operator dimension </td></tr>
   </table>
   </dd>
 </dl>
-<dl class="section return"><dt>Returns</dt><dd>TightBinding::status </dd></dl>
+<dl class="section return"><dt>Returns</dt><dd>status The status is a datatype defined in <a class="el" href="uck__tb__operator__error_8hpp_source.html">uck_tb_operator_error.hpp</a>, returning TightBinding::status::SUCCESS if successful or TightBinding::status::FAILURE otherwise. </dd></dl>
 
 </div>
 </div>
-<a class="anchor" id="a82e466c9601550891a38acafaf985337"></a>
+<a class="anchor" id="a98c43b35948e8afdad704a28e9deca82"></a>
 <div class="memitem">
 <div class="memproto">
 <table class="mlabels">
@@ -720,82 +504,9 @@ Reference to DenseMatrix This Function allows for inclluding the k-dependence in
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">TightBinding::status qt::UnitCellK_TBOp::SetPeriodicBoundaries </td>
+          <td class="memname">status qt::UnitCellK_TBOp::SetSuperCellDimensions </td>
           <td>(</td>
-          <td class="paramname"></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-<p>This Function allows for inclluding the k-dependence into the dense matrix. It does not touch the sparse matrix. </p>
-<dl class="params"><dt>Parameters</dt><dd>
-  <table class="params">
-    <tr><td class="paramname">kpoint.</td><td>Array containing three elements </td></tr>
-  </table>
-  </dd>
-</dl>
-<dl class="section return"><dt>Returns</dt><dd>TightBinding::status </dd></dl>
-
-</div>
-</div>
-<a class="anchor" id="adfe8658a08af597994a747772427fb7f"></a>
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">TightBinding::status qt::UnitCellK_TBOp::SetSuperCellBoundaries </td>
-          <td>(</td>
-          <td class="paramtype">const qt::real&#160;</td>
-          <td class="paramname"><em>kpoint</em>[3], </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">const qt::real&#160;</td>
-          <td class="paramname"><em>scal</em>[3], </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">const qt::real&#160;</td>
-          <td class="paramname"><em>phase</em>[3]&#160;</td>
-        </tr>
-        <tr>
-          <td></td>
-          <td>)</td>
-          <td></td><td></td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-<p>This Function allows for inclluding the k-dependence into the dense matrix. It does not touch the sparse matrix. </p>
-<dl class="params"><dt>Parameters</dt><dd>
-  <table class="params">
-    <tr><td class="paramname">kpoint.</td><td>Array containing three elements </td></tr>
-  </table>
-  </dd>
-</dl>
-<dl class="section return"><dt>Returns</dt><dd>TightBinding::status </dd></dl>
-
-</div>
-</div>
-<a class="anchor" id="ac6601b016a985cfe2239a0935da7bace"></a>
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">qt::TightBinding::status qt::UnitCellK_TBOp::SetSuperCellDimensions </td>
-          <td>(</td>
-          <td class="paramtype">const IntegerVector&#160;</td>
+          <td class="paramtype">const <a class="el" href="namespaceqt.html#abfecec294b27c34cf18cbccb2bc6c671">IntegerVector</a>&#160;</td>
           <td class="paramname"><em>_scDim</em></td><td>)</td>
           <td></td>
         </tr>
@@ -807,108 +518,14 @@ Reference to DenseMatrix This Function allows for inclluding the k-dependence in
 </table>
 </div><div class="memdoc">
 
-<p>This Function allows to set the value of the dimensions of the supercell. It should be called prior to calling CreateSparseSuperCell and SetSuperCellBoundaries. </p>
+<p>This Function set the value of the dimensions of the supercell. It should be called prior to calling CreateSparseSuperCell() and SetSuperCellBoundaries() </p>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
-    <tr><td class="paramname">Lattice_Vector_Index.</td><td></td></tr>
-    <tr><td class="paramname">Lattice_Vector_Component</td><td></td></tr>
+    <tr><td class="paramname">SuperCelDim</td><td>IntegerVector containing the three dimensions of the super cell. </td></tr>
   </table>
   </dd>
 </dl>
-<dl class="section return"><dt>Returns</dt><dd>TightBinding::status </dd></dl>
-
-</div>
-</div>
-<a class="anchor" id="ac88ef8ac14c10cfb15666ef495aabdf6"></a>
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">TightBinding::status qt::UnitCellK_TBOp::SetTwistedBoundaries </td>
-          <td>(</td>
-          <td class="paramtype">const qt::real&#160;</td>
-          <td class="paramname"><em>kpoint</em>[3]</td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-<p>This Function allows for inclluding the k-dependence into the dense matrix. It does not touch the sparse matrix. </p>
-<dl class="params"><dt>Parameters</dt><dd>
-  <table class="params">
-    <tr><td class="paramname">kpoint.</td><td>Array containing three elements </td></tr>
-  </table>
-  </dd>
-</dl>
-<dl class="section return"><dt>Returns</dt><dd>TightBinding::status </dd></dl>
-
-</div>
-</div>
-<a class="anchor" id="a5914bc7f5cc0f0cacae3ce94773ecf0b"></a>
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname"><a class="el" href="classsparse_1_1ComplexMatrix.html">sparseMatrix</a> qt::UnitCellK_TBOp::SparseMatrix </td>
-          <td>(</td>
-          <td class="paramname"></td><td>)</td>
-          <td> const</td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-<p>This Function allows for inclluding the k-dependence into the dense matrix. It does not touch the sparse matrix. </p>
-<dl class="params"><dt>Parameters</dt><dd>
-  <table class="params">
-    <tr><td class="paramname">kpoint.</td><td>Array containing three elements </td></tr>
-  </table>
-  </dd>
-</dl>
-<dl class="section return"><dt>Returns</dt><dd>TightBinding::status This Function retuns a reference to the Sparse Matrix representation of the tight-binding operator. The function CreateSparseSuperCell should be called prior this function to ensure a valid sparse matrix. </dd>
-<dd>
-SparseMatrix </dd></dl>
-
-</div>
-</div>
-<a class="anchor" id="a96567927cab9029e8f48dce4c86c4e8b"></a>
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname"><a class="el" href="classsparse_1_1ComplexMatrix.html">sparseMatrix</a>&amp; qt::UnitCellK_TBOp::SparseMatrix </td>
-          <td>(</td>
-          <td class="paramname"></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-<p>This Function retuns a reference to the Sparse Matrix representation of the tight-binding operator. The function CreateSparseSuperCell should be called prior this function to ensure a valid sparse matrix. </p>
-<dl class="section return"><dt>Returns</dt><dd>SparseMatrix </dd></dl>
+<dl class="section return"><dt>Returns</dt><dd>status The status is a datatype defined in <a class="el" href="uck__tb__operator__error_8hpp_source.html">uck_tb_operator_error.hpp</a>, returning TightBinding::status::SUCCESS if successful or TightBinding::status::FAILURE otherwise. </dd></dl>
 
 </div>
 </div>

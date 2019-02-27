@@ -82,3 +82,20 @@
 \form#81:$\delta(E-H)= -\frac{1}{\pi} \, \frac{1}{D}\,{\rm Im }[G^R(H,E)] $
 \form#82:$\displaystyle G^R(H,E)= \frac{1}{W }\frac{2}{\pi\sqrt{1-\tilde{E}^2}} \left( \frac{1}{2} + \sum_{m=1}^{M}T_m(\tilde{H}) T_m (\tilde{E}) )\right) $
 \form#83:$\displaystyle G^R(H,E)= \frac{1}{W }\frac{2}{\pi\sqrt{1-\tilde{E}^2}} \left( \frac{g_0}{2} + \sum_{m=1}^{M}g_mT_m(\tilde{H}) T_m (\tilde{E}) )\right) $
+\form#84:$M$
+\form#85:$M_{i,j}$
+\form#86:$M_{i,j}\rightarrow M_{j,i}$
+\form#87:$M_{i,j}\rightarrow M_{j,i}^* $
+\form#88:$ y = O \,a|x\rangle +b|y\rangle $
+\form#89:$ \vec{{\rm lat}}_{i}$
+\form#90:$ {\rm lat}_{i,j}$
+\form#91:$ j=0,1,2 \rightarrow j=x,y,z $
+\form#92:$ \vec{{\rm rec}}_{i}$
+\form#93:$ {\rm rec}_{i,j}$
+\form#94:$ \Psi \left( \vec{r}+ \sum_{i=0}^{\rm SPATIAL_DIM} n_i*\vec{ {\rm lat } }_i \right) =\Psi( \vec{r} ) \alpha \exp\left(\sum_{i=0}^{\rm SPATIAL_DIM} n_i*\vec{ {\rm lat } }_i\cdot \vec{k} \right) $
+\form#95:$ \Psi \left( \vec{r}+ \sum_{i=0}^{\rm SPATIAL_DIM } n_i*\vec{ {\rm lat } }_i \right) =\Psi( \vec{r} ) \alpha \exp\left(\sum_{i=0}^{\rm SPATIAL_DIM} n_i*\vec{ {\rm lat } }_i\cdot \vec{k} \right) $
+\form#96:$ \Psi \left( \vec{r}+ \sum_{i=0}^{\rm SPATIAL_{\,}DIM } n_i*\vec{ {\rm lat } }_i \right) =\Psi( \vec{r} ) \alpha \exp\left(\sum_{i=0}^{\rm \rm SPATIAL_{\,}DIM } n_i*\vec{ {\rm lat } }_i\cdot \vec{k} \right) $
+\form#97:$ \Psi \left( \vec{r}+ \sum_{i=0}^{\rm SPATIAL\_DIM } n_i*\vec{ {\rm lat } }_i \right) =\Psi( \vec{r} ) \alpha \exp\left(\sum_{i=0}^{\rm \rm SPATIAL_{\,}DIM } n_i*\vec{ {\rm lat } }_i\cdot \vec{k} \right) $
+\form#98:$ \Psi \left( \vec{r}+ \sum_{i=0}^{\rm SPATIAL\_DIM } n_i*\vec{ {\rm lat } }_i \right) =\Psi( \vec{r} ) \alpha \exp\left(\sum_{i=0}^{\rm \rm SPATIAL\_DIM } n_i*\vec{ {\rm lat } }_i\cdot \vec{k} \right) $
+\form#99:$ \left|\Psi \left( \vec{r}+ \sum_{i=0}^{\rm SPATIAL\_DIM } n_i\vec{ {\rm lat } }_i \right)\right\rangle = \alpha \exp\left(\sum_{i=0}^{\rm \rm SPATIAL\_DIM } n_i\vec{ {\rm lat } }_i\cdot \vec{k} \right) $
+\form#100:$ \left|\Psi \left( \vec{r}+ \sum_{i=0}^{\rm SPATIAL\_DIM } n_i\vec{ {\rm lat } }_i \right)\right\rangle = \alpha \exp\left(\sum_{i=0}^{\rm \rm SPATIAL\_DIM } n_i\vec{ {\rm lat } }_i\cdot \vec{k} \right) | \Psi( \vec{r} ) \rangle $

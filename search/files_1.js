@@ -1,5 +1,4 @@
 var searchData=
 [
-  ['parser_2ehpp',['parser.hpp',['../parser_8hpp.html',1,'']]],
-  ['parser_5ferror_2ehpp',['parser_error.hpp',['../parser__error_8hpp.html',1,'']]]
+  ['dense_5fmatrix_2ehpp',['dense_matrix.hpp',['../dense__matrix_8hpp.html',1,'']]]
 ];
