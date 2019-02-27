@@ -96,7 +96,7 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
 </div><!--header-->
 <div class="contents">
 
-<p>Defines functions for signalizing and handling cuda errors.  
+<p>Defines functions for signalizing and handling cuda errors. This header is just used when the GPU+CUDA flag is sett.  
 <a href="#details">More...</a></p>
 <div class="textblock"><code>#include &quot;cublas_v2.h&quot;</code><br />
 <code>#include &lt;cusparse.h&gt;</code><br />
@@ -118,15 +118,15 @@ Namespaces</h2></td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="func-members"></a>
 Functions</h2></td></tr>
-<tr class="memitem:a88cc0bfdd6c531fe4b77587269e8ea7c"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a88cc0bfdd6c531fe4b77587269e8ea7c"></a>
-int&#160;</td><td class="memItemRight" valign="bottom"><b>qt::CusparseError</b> (const cusparseStatus_t errorId)</td></tr>
+<tr class="memitem:a88cc0bfdd6c531fe4b77587269e8ea7c"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceqt.html#a88cc0bfdd6c531fe4b77587269e8ea7c">qt::CusparseError</a> (const cusparseStatus_t errorId)</td></tr>
+<tr class="memdesc:a88cc0bfdd6c531fe4b77587269e8ea7c"><td class="mdescLeft">&#160;</td><td class="mdescRight">Prints a error message with the cusparse.  <a href="namespaceqt.html#a88cc0bfdd6c531fe4b77587269e8ea7c">More...</a><br /></td></tr>
 <tr class="separator:a88cc0bfdd6c531fe4b77587269e8ea7c"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a5570cbc96800966efa819ba90a65ba3c"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a5570cbc96800966efa819ba90a65ba3c"></a>
-int&#160;</td><td class="memItemRight" valign="bottom"><b>qt::CudaError</b> (const cudaError_t errorId)</td></tr>
+<tr class="memitem:a5570cbc96800966efa819ba90a65ba3c"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceqt.html#a5570cbc96800966efa819ba90a65ba3c">qt::CudaError</a> (const cudaError_t errorId)</td></tr>
+<tr class="memdesc:a5570cbc96800966efa819ba90a65ba3c"><td class="mdescLeft">&#160;</td><td class="mdescRight">Prints a error message with the cuda.  <a href="namespaceqt.html#a5570cbc96800966efa819ba90a65ba3c">More...</a><br /></td></tr>
 <tr class="separator:a5570cbc96800966efa819ba90a65ba3c"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
-<div class="textblock"><p>Defines functions for signalizing and handling cuda errors. </p>
+<div class="textblock"><p>Defines functions for signalizing and handling cuda errors. This header is just used when the GPU+CUDA flag is sett. </p>
 <dl class="section version"><dt>Version</dt><dd>1.0 </dd></dl>
 <dl class="section date"><dt>Date</dt><dd>27/02/2019 </dd></dl>
 <dl class="section author"><dt>Author</dt><dd>Jose H. Garcia </dd></dl>

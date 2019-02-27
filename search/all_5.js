@@ -1,4 +1,4 @@
 var searchData=
 [
-  ['hermitianconjugate',['HermitianConjugate',['../classqt_1_1dense__matrix.html#a6323289b7b2dc154e23026cbebb561ad',1,'qt::dense_matrix']]]
+  ['hermitianconjugate',['HermitianConjugate',['../classqt_1_1DenseMatrix.html#a8b7decf0e5f81fd1356b609a336d9ab4',1,'qt::DenseMatrix']]]
 ];

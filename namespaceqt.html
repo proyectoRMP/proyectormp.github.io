@@ -107,7 +107,7 @@ Namespaces</h2></td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="nested-classes"></a>
 Classes</h2></td></tr>
-<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classqt_1_1dense__matrix.html">dense_matrix</a></td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classqt_1_1DenseMatrix.html">DenseMatrix</a></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classqt_1_1UnitCellK__TBOp.html">UnitCellK_TBOp</a></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -145,11 +145,11 @@ typedef std::vector&lt; <a class="el" href="namespaceqt.html#ab04c718a6df41a1b3e
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="func-members"></a>
 Functions</h2></td></tr>
-<tr class="memitem:a88cc0bfdd6c531fe4b77587269e8ea7c"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a88cc0bfdd6c531fe4b77587269e8ea7c"></a>
-int&#160;</td><td class="memItemRight" valign="bottom"><b>CusparseError</b> (const cusparseStatus_t errorId)</td></tr>
+<tr class="memitem:a88cc0bfdd6c531fe4b77587269e8ea7c"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceqt.html#a88cc0bfdd6c531fe4b77587269e8ea7c">CusparseError</a> (const cusparseStatus_t errorId)</td></tr>
+<tr class="memdesc:a88cc0bfdd6c531fe4b77587269e8ea7c"><td class="mdescLeft">&#160;</td><td class="mdescRight">Prints a error message with the cusparse.  <a href="#a88cc0bfdd6c531fe4b77587269e8ea7c">More...</a><br /></td></tr>
 <tr class="separator:a88cc0bfdd6c531fe4b77587269e8ea7c"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a5570cbc96800966efa819ba90a65ba3c"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a5570cbc96800966efa819ba90a65ba3c"></a>
-int&#160;</td><td class="memItemRight" valign="bottom"><b>CudaError</b> (const cudaError_t errorId)</td></tr>
+<tr class="memitem:a5570cbc96800966efa819ba90a65ba3c"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceqt.html#a5570cbc96800966efa819ba90a65ba3c">CudaError</a> (const cudaError_t errorId)</td></tr>
+<tr class="memdesc:a5570cbc96800966efa819ba90a65ba3c"><td class="mdescLeft">&#160;</td><td class="mdescRight">Prints a error message with the cuda.  <a href="#a5570cbc96800966efa819ba90a65ba3c">More...</a><br /></td></tr>
 <tr class="separator:a5570cbc96800966efa819ba90a65ba3c"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a0364d84d2291a818861fbd0461b84b42"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a0364d84d2291a818861fbd0461b84b42"></a>
 int&#160;</td><td class="memItemRight" valign="bottom"><b>malloc</b> (int **Ptr, size_t size)</td></tr>
@@ -200,7 +200,46 @@ const <a class="el" href="namespaceqt.html#ab04c718a6df41a1b3eb02d653cf14c35">in
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
 <div class="textblock"><p>This is the proyect namespace. </p>
-</div></div><!-- contents -->
+</div><h2 class="groupheader">Function Documentation</h2>
+<a class="anchor" id="a5570cbc96800966efa819ba90a65ba3c"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">int qt::CudaError </td>
+          <td>(</td>
+          <td class="paramtype">const cudaError_t&#160;</td>
+          <td class="paramname"><em>errorId</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Prints a error message with the cuda. </p>
+<dl class="section return"><dt>Returns</dt><dd>status Returns 0 if successful or -1 otherwise. </dd></dl>
+
+</div>
+</div>
+<a class="anchor" id="a88cc0bfdd6c531fe4b77587269e8ea7c"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">int qt::CusparseError </td>
+          <td>(</td>
+          <td class="paramtype">const cusparseStatus_t&#160;</td>
+          <td class="paramname"><em>errorId</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Prints a error message with the cusparse. </p>
+<dl class="section return"><dt>Returns</dt><dd>status Returns 0 if successful or -1 otherwise. </dd></dl>
+
+</div>
+</div>
+</div><!-- contents -->
 <!-- start footer part -->
 <hr class="footer"/><address class="footer"><small>
 Generated by &#160;<a href="http://www.doxygen.org/index.html">

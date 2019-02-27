@@ -1,5 +1,5 @@
 var searchData=
 [
-  ['dense_5fmatrix',['dense_matrix',['../classqt_1_1dense__matrix.html#a081be8070ea77a043dd83baa66b6bf87',1,'qt::dense_matrix::dense_matrix()'],['../classqt_1_1dense__matrix.html#a44a1bcfe15c3dcc2ed519926eb58f0ec',1,'qt::dense_matrix::dense_matrix(const integer num_rows, const integer num_cols)']]],
-  ['dim',['Dim',['../classqt_1_1UnitCellK__TBOp.html#a173704caf10b39a91c3a33fb046f5568',1,'qt::UnitCellK_TBOp']]]
+  ['cudaerror',['CudaError',['../namespaceqt.html#a5570cbc96800966efa819ba90a65ba3c',1,'qt']]],
+  ['cusparseerror',['CusparseError',['../namespaceqt.html#a88cc0bfdd6c531fe4b77587269e8ea7c',1,'qt']]]
 ];

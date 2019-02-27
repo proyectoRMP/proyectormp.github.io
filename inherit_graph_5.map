@@ -1,5 +1,3 @@
 <map id="Graphical Class Hierarchy" name="Graphical Class Hierarchy">
-<area shape="rect" id="node1" href="$structqt_1_1kpm_1_1mom_1_1params.html" title="The structure params is used to store required for a 1D chebyshev expansion. It contains different me..." alt="" coords="5,31,160,57"/>
-<area shape="rect" id="node2" href="$structqt_1_1kpm_1_1mom1D_1_1params.html" title="The structure params is used to store required for a 1D chebyshev expansion. It contains different me..." alt="" coords="208,5,379,32"/>
-<area shape="rect" id="node3" href="$structqt_1_1kpm_1_1mom2D_1_1params.html" title="qt::kpm::mom2D::params" alt="" coords="208,56,379,83"/>
+<area shape="rect" id="node1" href="$structqt_1_1kpm_1_1methods2D_1_1params.html" title="qt::kpm::methods2D\l::params" alt="" coords="5,5,147,47"/>
 </map>

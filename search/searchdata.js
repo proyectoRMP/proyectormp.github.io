@@ -4,10 +4,10 @@ var indexSectionsWithContent =
   1: "cdpu",
   2: "q",
   3: "cdkpu",
-  4: "adfghlmnoprstuw",
+  4: "acdfghklmnoprstuw",
   5: "s",
   6: "cir",
-  7: "kq",
+  7: "gkq",
   8: "t"
 };
 

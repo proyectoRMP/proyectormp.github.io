@@ -1,5 +1,5 @@
 var searchData=
 [
-  ['operator_28_29',['operator()',['../classqt_1_1dense__matrix.html#a99c88255148195e8d7cbc5e438a10c91',1,'qt::dense_matrix::operator()(const integer i, const integer j) const '],['../classqt_1_1dense__matrix.html#a86b66d7db6faa04af7c08834ff3c78b7',1,'qt::dense_matrix::operator()(const integer i, const integer j)']]],
-  ['orbitalspercell',['OrbitalsPercell',['../structqt_1_1kpm_1_1geo_1_1params.html#a3b00ffc0e0126748c2acb94d7774711a',1,'qt::kpm::geo::params']]]
+  ['mom',['Mom',['../structqt_1_1kpm_1_1mom1D_1_1params.html#a883998f162c66d6beb450cd1cbc64e0f',1,'qt::kpm::mom1D::params::Mom()'],['../structqt_1_1kpm_1_1mom2D_1_1params.html#aed867fb5311bf785ce3eaf0fb6f061a9',1,'qt::kpm::mom2D::params::Mom()']]],
+  ['multiply',['Multiply',['../classqt_1_1UnitCellK__TBOp.html#a8f9d87b31afb8d08a295e3112ba9b6b4',1,'qt::UnitCellK_TBOp']]]
 ];
