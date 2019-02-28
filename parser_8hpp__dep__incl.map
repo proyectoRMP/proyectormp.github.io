@@ -1,12 +1,12 @@
 <map id="/data/jgarcia/linQT/linQT.0.0.03/include/parser.hpp" name="/data/jgarcia/linQT/linQT.0.0.03/include/parser.hpp">
-<area shape="rect" id="node2" href="$kpm_8hpp_source.html" title="/data/jgarcia/linQT\l/linQT.0.0.03/include\l/kpm.hpp" alt="" coords="142,109,284,165"/>
-<area shape="rect" id="node4" href="$kpm__mom_8hpp.html" title="This header defines the class mom1D. This class is responsible for storing and handling the data requ..." alt="" coords="167,213,310,269"/>
+<area shape="rect" id="node2" href="$kpm_8hpp.html" title="Header defining the class kpm_geom. This class is responsible for storing and handling the data assoc..." alt="" coords="142,109,284,165"/>
+<area shape="rect" id="node4" href="$kpm__mom_8hpp.html" title="This header defines the class mom. This class contains the essential for storing and handling the dat..." alt="" coords="167,213,310,269"/>
 <area shape="rect" id="node6" href="$kpm__methods1D_8hpp_source.html" title="/data/jgarcia/linQT\l/linQT.0.0.03/include\l/kpm_methods1D.hpp" alt="" coords="555,421,706,477"/>
 <area shape="rect" id="node7" href="$kpm__methods_8hpp_source.html" title="/data/jgarcia/linQT\l/linQT.0.0.03/include\l/kpm_methods.hpp" alt="" coords="559,525,702,581"/>
 <area shape="rect" id="node9" href="$kpm__methods2D_8hpp_source.html" title="/data/jgarcia/linQT\l/linQT.0.0.03/include\l/kpm_methods2D.hpp" alt="" coords="380,421,531,477"/>
 <area shape="rect" id="node10" href="$kpm__geo_8hpp.html" title="Header defining the class kpm_geom. This class is responsible for storing and handling the data assoc..." alt="" coords="411,317,554,373"/>
 <area shape="rect" id="node11" href="$uck__tb__operator_8hpp.html" title="This Class is the responsible for handling the tight&#45;binding operator. The tight&#45;binding operator con..." alt="" coords="512,213,656,269"/>
-<area shape="rect" id="node3" href="$kpm__kernel1D_8hpp_source.html" title="/data/jgarcia/linQT\l/linQT.0.0.03/include\l/kpm_kernel1D.hpp" alt="" coords="26,421,168,477"/>
+<area shape="rect" id="node3" href="$kpm__kernel_8hpp_source.html" title="/data/jgarcia/linQT\l/linQT.0.0.03/include\l/kpm_kernel.hpp" alt="" coords="26,421,168,477"/>
 <area shape="rect" id="node5" href="$kpm__mom1D_8hpp_source.html" title="/data/jgarcia/linQT\l/linQT.0.0.03/include\l/kpm_mom1D.hpp" alt="" coords="192,317,335,373"/>
 <area shape="rect" id="node8" href="$kpm__mom2D_8hpp_source.html" title="/data/jgarcia/linQT\l/linQT.0.0.03/include\l/kpm_mom2D.hpp" alt="" coords="26,317,168,373"/>
 </map>

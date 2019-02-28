@@ -4,9 +4,9 @@
 <area shape="rect" id="node19" href="$dense__matrix_8hpp.html" title="The Dense Matrix Class. A template class which is used to handle two&#45;dimensional arrays within the pr..." alt="" coords="5,191,131,218"/>
 <area shape="rect" id="node20" href="$sparse_8hpp_source.html" title="sparse.hpp" alt="" coords="769,109,855,136"/>
 <area shape="rect" id="node25" href="$vector__algorithm_8hpp_source.html" title="vector_algorithm.hpp" alt="" coords="931,191,1074,218"/>
-<area shape="rect" id="node26" href="$uck__tb__operator__error_8hpp_source.html" title="uck_tb_operator_error.hpp" alt="" coords="279,109,452,136"/>
+<area shape="rect" id="node26" href="$uck__tb__operator__error_8hpp.html" title="This header defines the error handlers of the uck_tb_operator.hpp functions defined in parser..." alt="" coords="279,109,452,136"/>
 <area shape="rect" id="node27" href="$supercell_8hpp_source.html" title="supercell.hpp" alt="" coords="105,109,204,136"/>
-<area shape="rect" id="node13" href="$string__util_8hpp_source.html" title="string_util.hpp" alt="" coords="1659,191,1762,218"/>
+<area shape="rect" id="node13" href="$string__util_8hpp.html" title="This header defines some string utilities which are mostly used by the functions defined in parser..." alt="" coords="1659,191,1762,218"/>
 <area shape="rect" id="node15" href="$parser__error_8hpp.html" title="This header defines the error handlers of the parsing functions defined in parser.hpp . " alt="" coords="1873,191,1989,218"/>
-<area shape="rect" id="node21" href="$memory_8hpp_source.html" title="memory.hpp" alt="" coords="358,191,453,218"/>
+<area shape="rect" id="node21" href="$memory_8hpp.html" title="Defines functions used to properly handling memory. These functions will be overloaded depending on t..." alt="" coords="358,191,453,218"/>
 </map>

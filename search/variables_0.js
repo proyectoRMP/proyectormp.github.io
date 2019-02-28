@@ -1,4 +1,4 @@
 var searchData=
 [
-  ['spatial_5fdim',['SPATIAL_DIM',['../namespaceqt.html#a8f844a29c3a8a1f4eeb169db636ff27a',1,'qt']]]
+  ['cutoff',['CUTOFF',['../namespaceqt_1_1kpm.html#ab5421120be38d64a8e3a7bc236bcd00d',1,'qt::kpm']]]
 ];
