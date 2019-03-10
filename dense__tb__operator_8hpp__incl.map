@@ -1,0 +1,11 @@
+<map id="/data/jgarcia/linQT/git_space/working_directory/include/dense_tb_operator.hpp" name="/data/jgarcia/linQT/git_space/working_directory/include/dense_tb_operator.hpp">
+<area shape="rect" id="node2" href="$tb__operator_8hpp.html" title="This Class is the responsible for handling the tight&#45;binding operator. The tight&#45;binding operator con..." alt="" coords="1400,109,1512,136"/>
+<area shape="rect" id="node21" href="$tb__operator__error_8hpp_source.html" title="tb_operator_error.hpp" alt="" coords="1776,184,1922,211"/>
+<area shape="rect" id="node24" href="$dense__matrix_8hpp.html" title="The Dense Matrix Class. A template class which is used to handle two&#45;dimensional arrays within the pr..." alt="" coords="1946,184,2072,211"/>
+<area shape="rect" id="node8" href="$types__definitions_8hpp_source.html" title="types_definitions.hpp" alt="" coords="1703,266,1848,293"/>
+<area shape="rect" id="node11" href="$parser_8hpp.html" title="This header defines the parsing functions of the code. They are mostly used to extract parameters fro..." alt="" coords="854,184,937,211"/>
+<area shape="rect" id="node22" href="$vector__algorithm_8hpp_source.html" title="vector_algorithm.hpp" alt="" coords="1384,184,1527,211"/>
+<area shape="rect" id="node23" href="$supercell_8hpp_source.html" title="supercell.hpp" alt="" coords="1653,184,1752,211"/>
+<area shape="rect" id="node14" href="$string__util_8hpp.html" title="This header defines some string utilities which are mostly used by the functions defined in parser..." alt="" coords="934,266,1036,293"/>
+<area shape="rect" id="node16" href="$parser__error_8hpp.html" title="This header defines the error handlers of the parsing functions defined in parser.hpp . " alt="" coords="118,266,234,293"/>
+</map>

@@ -4,7 +4,7 @@
 <meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
 <meta http-equiv="X-UA-Compatible" content="IE=9"/>
 <meta name="generator" content="Doxygen 1.8.11"/>
-<title>LinQT: /data/jgarcia/linQT/linQT.0.0.03/include Directory Reference</title>
+<title>LinQT: /data/jgarcia/linQT/git_space/working_directory/include Directory Reference</title>
 <link href="tabs.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="jquery.js"></script>
 <script type="text/javascript" src="dynsections.js"></script>
@@ -95,11 +95,26 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="files"></a>
 Files</h2></td></tr>
+<tr class="memitem:band__structure_8hpp"><td class="memItemLeft" align="right" valign="top">file &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="band__structure_8hpp.html">band_structure.hpp</a> <a href="band__structure_8hpp_source.html">[code]</a></td></tr>
+<tr class="memdesc:band__structure_8hpp"><td class="mdescLeft">&#160;</td><td class="mdescRight">A class used to compute band structures, and different types of proyections. This class assumes a exact diagonalization method which must be defined in the compilation. <br /></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:cuda__error_8hpp"><td class="memItemLeft" align="right" valign="top">file &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="cuda__error_8hpp.html">cuda_error.hpp</a> <a href="cuda__error_8hpp_source.html">[code]</a></td></tr>
 <tr class="memdesc:cuda__error_8hpp"><td class="mdescLeft">&#160;</td><td class="mdescRight">Defines functions for signalizing and handling cuda errors. This header is just used when the GPU+CUDA flag is sett. <br /></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:dense__matrix_8hpp"><td class="memItemLeft" align="right" valign="top">file &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="dense__matrix_8hpp.html">dense_matrix.hpp</a> <a href="dense__matrix_8hpp_source.html">[code]</a></td></tr>
 <tr class="memdesc:dense__matrix_8hpp"><td class="mdescLeft">&#160;</td><td class="mdescRight">The Dense Matrix Class. A template class which is used to handle two-dimensional arrays within the program. In the documentation, we will used the letter <img class="formulaInl" alt="$M$" src="form_84.png"/> to refer to an arbitrary matrix, and <img class="formulaInl" alt="$M_{i,j}$" src="form_85.png"/> to refer to the matrix element at row i and column j. The memory is allocated in an array following row major format. The rows and columns are assume to follow a zero-base index convenction. <br /></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:dense__tb__operator_8hpp"><td class="memItemLeft" align="right" valign="top">file &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="dense__tb__operator_8hpp.html">dense_tb_operator.hpp</a> <a href="dense__tb__operator_8hpp_source.html">[code]</a></td></tr>
+<tr class="memdesc:dense__tb__operator_8hpp"><td class="mdescLeft">&#160;</td><td class="mdescRight">This Class is the responsible for handling the tight-binding operator. The tight-binding operator consists in a list of hoppings t_ij between orbital orbi and orbj, which can belong to two different unit cells defined with indexes (i0,i1,i2) and (j0,j1,j2)=(i0+dij0,i1+dij1,i2+dij2).<br />
+<br />
+ The tight-binding operator is initialize by reading the operator from a .KOP file, which should be placed in the operator directory. This file will contain the number of orbitals per cell, The total number of hoppings, the lattice constant and lattice vector and the list of t_ij, orbi, orbj, (dij0,dij1,dij2).<br />
+<br />
+ The class allows for creating a dense or sparse matrix with different boundary conditions, including twisted boundary conditions (k-dependent).<br />
+<br />
+ The sparse matrix format is defined by the flavor of calculation: <br /></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:exact__diagonalization_8hpp"><td class="memItemLeft" align="right" valign="top">file &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="exact__diagonalization_8hpp.html">exact_diagonalization.hpp</a> <a href="exact__diagonalization_8hpp_source.html">[code]</a></td></tr>
+<tr class="memdesc:exact__diagonalization_8hpp"><td class="mdescLeft">&#160;</td><td class="mdescRight">Contains the the methods for exact diagonalization. <br /></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:kpm_8hpp"><td class="memItemLeft" align="right" valign="top">file &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="kpm_8hpp.html">kpm.hpp</a> <a href="kpm_8hpp_source.html">[code]</a></td></tr>
 <tr class="memdesc:kpm_8hpp"><td class="mdescLeft">&#160;</td><td class="mdescRight">Header defining the class kpm_geom. This class is responsible for storing and handling the data associated with the geometry selfcorrelation functions.<br />
@@ -130,6 +145,15 @@ Files</h2></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:string__util_8hpp"><td class="memItemLeft" align="right" valign="top">file &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="string__util_8hpp.html">string_util.hpp</a> <a href="string__util_8hpp_source.html">[code]</a></td></tr>
 <tr class="memdesc:string__util_8hpp"><td class="mdescLeft">&#160;</td><td class="mdescRight">This header defines some string utilities which are mostly used by the functions defined in <a class="el" href="parser_8hpp.html" title="This header defines the parsing functions of the code. They are mostly used to extract parameters fro...">parser.hpp</a>. <br /></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:tb__operator_8hpp"><td class="memItemLeft" align="right" valign="top">file &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="tb__operator_8hpp.html">tb_operator.hpp</a> <a href="tb__operator_8hpp_source.html">[code]</a></td></tr>
+<tr class="memdesc:tb__operator_8hpp"><td class="mdescLeft">&#160;</td><td class="mdescRight">This Class is the responsible for handling the tight-binding operator. The tight-binding operator consists in a list of hoppings t_ij between orbital orbi and orbj, which can belong to two different unit cells defined with indexes (i0,i1,i2) and (j0,j1,j2)=(i0+dij0,i1+dij1,i2+dij2).<br />
+<br />
+ The tight-binding operator is initialize by reading the operator from a .KOP file, which should be placed in the operator directory. This file will contain the number of orbitals per cell, The total number of hoppings, the lattice constant and lattice vector and the list of t_ij, orbi, orbj, (dij0,dij1,dij2).<br />
+<br />
+ The class allows for creating a dense or sparse matrix with different boundary conditions, including twisted boundary conditions (k-dependent).<br />
+<br />
+ The sparse matrix format is defined by the flavor of calculation: <br /></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:uck__tb__operator_8hpp"><td class="memItemLeft" align="right" valign="top">file &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="uck__tb__operator_8hpp.html">uck_tb_operator.hpp</a> <a href="uck__tb__operator_8hpp_source.html">[code]</a></td></tr>
 <tr class="memdesc:uck__tb__operator_8hpp"><td class="mdescLeft">&#160;</td><td class="mdescRight">This Class is the responsible for handling the tight-binding operator. The tight-binding operator consists in a list of hoppings t_ij between orbital orbi and orbj, which can belong to two different unit cells defined with indexes (i0,i1,i2) and (j0,j1,j2)=(i0+dij0,i1+dij1,i2+dij2).<br />

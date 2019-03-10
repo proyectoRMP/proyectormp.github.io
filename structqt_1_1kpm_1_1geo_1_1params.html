@@ -108,9 +108,12 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:a1375b6281fda294613f1ca80132e08d3"><td class="memItemLeft" align="right" valign="top">status&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structqt_1_1kpm_1_1geo_1_1params.html#a1375b6281fda294613f1ca80132e08d3">ReadCFGFile</a> (const std::string filename)</td></tr>
 <tr class="memdesc:a1375b6281fda294613f1ca80132e08d3"><td class="mdescLeft">&#160;</td><td class="mdescRight">The method ReadCFGFile read the GEOMETRY parameters from the config file. These parameters will vary depending on the kind of calculations.  <a href="#a1375b6281fda294613f1ca80132e08d3">More...</a><br /></td></tr>
 <tr class="separator:a1375b6281fda294613f1ca80132e08d3"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ad0683744efd04be957a37933a960120b"><td class="memItemLeft" align="right" valign="top">status&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structqt_1_1kpm_1_1geo_1_1params.html#ad0683744efd04be957a37933a960120b">GetLatticeInfo</a> (const <a class="el" href="classqt_1_1UnitCellK__TBOp.html">qt::UnitCellK_TBOp</a> &amp;OP)</td></tr>
-<tr class="memdesc:ad0683744efd04be957a37933a960120b"><td class="mdescLeft">&#160;</td><td class="mdescRight">Extract the information about the lattice contained in the tight-binding Operator. The lattice constant, lattice vector, reciprocal lattice vectors, volume, and number of orbitals are extracted by this function.  <a href="#ad0683744efd04be957a37933a960120b">More...</a><br /></td></tr>
-<tr class="separator:ad0683744efd04be957a37933a960120b"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ac1eeb44d99e559a5cfee75c634c8181c"><td class="memItemLeft" align="right" valign="top">status&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structqt_1_1kpm_1_1geo_1_1params.html#ac1eeb44d99e559a5cfee75c634c8181c">GetLatticeInfo</a> (const <a class="el" href="classqt_1_1TBOp.html">qt::TBOp</a> &amp;OP)</td></tr>
+<tr class="memdesc:ac1eeb44d99e559a5cfee75c634c8181c"><td class="mdescLeft">&#160;</td><td class="mdescRight">Extract the information about the lattice contained in the tight-binding Operator. The lattice constant, lattice vector, reciprocal lattice vectors, volume, and number of orbitals are extracted by this function.  <a href="#ac1eeb44d99e559a5cfee75c634c8181c">More...</a><br /></td></tr>
+<tr class="separator:ac1eeb44d99e559a5cfee75c634c8181c"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ae41f9639ac8e06abb5aaf783bfe8c684"><td class="memItemLeft" align="right" valign="top"><a class="el" href="namespaceqt.html#abfecec294b27c34cf18cbccb2bc6c671">IntegerVector</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structqt_1_1kpm_1_1geo_1_1params.html#ae41f9639ac8e06abb5aaf783bfe8c684">SuperCellDim</a> () const </td></tr>
+<tr class="memdesc:ae41f9639ac8e06abb5aaf783bfe8c684"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns the super cell dimension in the i direction. The supercell dimension is defined as the number of unit cells one need to add to a particular direction i, in order to construct the final supercell cell.  <a href="#ae41f9639ac8e06abb5aaf783bfe8c684">More...</a><br /></td></tr>
+<tr class="separator:ae41f9639ac8e06abb5aaf783bfe8c684"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aae29d2c4f4334984c075f5d0544d1dd8"><td class="memItemLeft" align="right" valign="top"><a class="el" href="namespaceqt.html#ab04c718a6df41a1b3eb02d653cf14c35">integer</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structqt_1_1kpm_1_1geo_1_1params.html#aae29d2c4f4334984c075f5d0544d1dd8">SuperCellDim</a> (const <a class="el" href="namespaceqt.html#ab04c718a6df41a1b3eb02d653cf14c35">integer</a> idx) const </td></tr>
 <tr class="memdesc:aae29d2c4f4334984c075f5d0544d1dd8"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns the super cell dimension in the i direction. The supercell dimension is defined as the number of unit cells one need to add to a particular direction i, in order to construct the final supercell cell.  <a href="#aae29d2c4f4334984c075f5d0544d1dd8">More...</a><br /></td></tr>
 <tr class="separator:aae29d2c4f4334984c075f5d0544d1dd8"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -201,14 +204,14 @@ void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="stru
 
 </div>
 </div>
-<a class="anchor" id="ad0683744efd04be957a37933a960120b"></a>
+<a class="anchor" id="ac1eeb44d99e559a5cfee75c634c8181c"></a>
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
           <td class="memname">status qt::kpm::geo::params::GetLatticeInfo </td>
           <td>(</td>
-          <td class="paramtype">const <a class="el" href="classqt_1_1UnitCellK__TBOp.html">qt::UnitCellK_TBOp</a> &amp;&#160;</td>
+          <td class="paramtype">const <a class="el" href="classqt_1_1TBOp.html">qt::TBOp</a> &amp;&#160;</td>
           <td class="paramname"><em>OP</em></td><td>)</td>
           <td></td>
         </tr>
@@ -486,6 +489,33 @@ void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="stru
 
 </div>
 </div>
+<a class="anchor" id="ae41f9639ac8e06abb5aaf783bfe8c684"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="namespaceqt.html#abfecec294b27c34cf18cbccb2bc6c671">IntegerVector</a> qt::kpm::geo::params::SuperCellDim </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Returns the super cell dimension in the i direction. The supercell dimension is defined as the number of unit cells one need to add to a particular direction i, in order to construct the final supercell cell. </p>
+<dl class="section user"><dt>idx The lattice vector index, a value from 0 to 2, which corresponds to the lattice vector 0 to SPATIAL_DIM-1.</dt><dd></dd></dl>
+<dl class="section return"><dt>Returns</dt><dd>scdim_i Super cell dimension in the i direction </dd></dl>
+
+</div>
+</div>
 <a class="anchor" id="aae29d2c4f4334984c075f5d0544d1dd8"></a>
 <div class="memitem">
 <div class="memproto">
@@ -515,7 +545,7 @@ void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="stru
 </div>
 </div>
 <hr/>The documentation for this struct was generated from the following file:<ul>
-<li>/data/jgarcia/linQT/linQT.0.0.03/include/<a class="el" href="kpm__geo_8hpp_source.html">kpm_geo.hpp</a></li>
+<li>/data/jgarcia/linQT/git_space/working_directory/include/<a class="el" href="kpm__geo_8hpp_source.html">kpm_geo.hpp</a></li>
 </ul>
 </div><!-- contents -->
 <!-- start footer part -->

@@ -1,8 +1,8 @@
-<map id="/data/jgarcia/linQT/linQT.0.0.03/include/kpm_mom.hpp" name="/data/jgarcia/linQT/linQT.0.0.03/include/kpm_mom.hpp">
-<area shape="rect" id="node2" href="$kpm__mom1D_8hpp_source.html" title="/data/jgarcia/linQT\l/linQT.0.0.03/include\l/kpm_mom1D.hpp" alt="" coords="96,109,239,165"/>
-<area shape="rect" id="node6" href="$kpm__mom2D_8hpp_source.html" title="/data/jgarcia/linQT\l/linQT.0.0.03/include\l/kpm_mom2D.hpp" alt="" coords="263,109,405,165"/>
-<area shape="rect" id="node3" href="$kpm__kernel_8hpp_source.html" title="/data/jgarcia/linQT\l/linQT.0.0.03/include\l/kpm_kernel.hpp" alt="" coords="180,213,323,269"/>
-<area shape="rect" id="node4" href="$kpm__methods1D_8hpp_source.html" title="/data/jgarcia/linQT\l/linQT.0.0.03/include\l/kpm_methods1D.hpp" alt="" coords="5,213,156,269"/>
-<area shape="rect" id="node5" href="$kpm__methods_8hpp_source.html" title="/data/jgarcia/linQT\l/linQT.0.0.03/include\l/kpm_methods.hpp" alt="" coords="180,317,323,373"/>
-<area shape="rect" id="node7" href="$kpm__methods2D_8hpp_source.html" title="/data/jgarcia/linQT\l/linQT.0.0.03/include\l/kpm_methods2D.hpp" alt="" coords="347,213,497,269"/>
+<map id="/data/jgarcia/linQT/git_space/working_directory/include/kpm_mom.hpp" name="/data/jgarcia/linQT/git_space/working_directory/include/kpm_mom.hpp">
+<area shape="rect" id="node2" href="$kpm__mom1D_8hpp_source.html" title="/data/jgarcia/linQT\l/git_space/working_directory\l/include/kpm_mom1D.hpp" alt="" coords="118,109,306,165"/>
+<area shape="rect" id="node5" href="$kpm__mom2D_8hpp_source.html" title="/data/jgarcia/linQT\l/git_space/working_directory\l/include/kpm_mom2D.hpp" alt="" coords="330,109,518,165"/>
+<area shape="rect" id="node3" href="$kpm__kernel_8hpp_source.html" title="/data/jgarcia/linQT\l/git_space/working_directory\l/include/kpm_kernel.hpp" alt="" coords="225,213,413,269"/>
+<area shape="rect" id="node4" href="$kpm__methods1D_8hpp_source.html" title="/data/jgarcia/linQT\l/git_space/working_directory\l/include/kpm_methods1D.hpp" alt="" coords="5,213,200,269"/>
+<area shape="rect" id="node6" href="$kpm__methods2D_8hpp_source.html" title="/data/jgarcia/linQT\l/git_space/working_directory\l/include/kpm_methods2D.hpp" alt="" coords="437,213,632,269"/>
+<area shape="rect" id="node7" href="$kpm__methods_8hpp_source.html" title="/data/jgarcia/linQT\l/git_space/working_directory\l/include/kpm_methods.hpp" alt="" coords="441,317,629,373"/>
 </map>

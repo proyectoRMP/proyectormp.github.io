@@ -1,4 +1,4 @@
 var searchData=
 [
-  ['dense_5fmatrix_2ehpp',['dense_matrix.hpp',['../dense__matrix_8hpp.html',1,'']]]
+  ['cuda_5ferror_2ehpp',['cuda_error.hpp',['../cuda__error_8hpp.html',1,'']]]
 ];

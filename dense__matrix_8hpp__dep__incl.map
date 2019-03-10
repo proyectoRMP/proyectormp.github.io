@@ -1,7 +1,9 @@
-<map id="/data/jgarcia/linQT/linQT.0.0.03/include/dense_matrix.hpp" name="/data/jgarcia/linQT/linQT.0.0.03/include/dense_matrix.hpp">
-<area shape="rect" id="node2" href="$kpm__geo_8hpp.html" title="Header defining the class kpm_geom. This class is responsible for storing and handling the data assoc..." alt="" coords="180,213,323,269"/>
-<area shape="rect" id="node6" href="$uck__tb__operator_8hpp.html" title="This Class is the responsible for handling the tight&#45;binding operator. The tight&#45;binding operator con..." alt="" coords="70,109,214,165"/>
-<area shape="rect" id="node3" href="$kpm__methods1D_8hpp_source.html" title="/data/jgarcia/linQT\l/linQT.0.0.03/include\l/kpm_methods1D.hpp" alt="" coords="180,317,331,373"/>
-<area shape="rect" id="node5" href="$kpm__methods2D_8hpp_source.html" title="/data/jgarcia/linQT\l/linQT.0.0.03/include\l/kpm_methods2D.hpp" alt="" coords="5,317,156,373"/>
-<area shape="rect" id="node4" href="$kpm__methods_8hpp_source.html" title="/data/jgarcia/linQT\l/linQT.0.0.03/include\l/kpm_methods.hpp" alt="" coords="96,421,239,477"/>
+<map id="/data/jgarcia/linQT/git_space/working_directory/include/dense_matrix.hpp" name="/data/jgarcia/linQT/git_space/working_directory/include/dense_matrix.hpp">
+<area shape="rect" id="node2" href="$dense__tb__operator_8hpp.html" title="This Class is the responsible for handling the tight&#45;binding operator. The tight&#45;binding operator con..." alt="" coords="5,109,208,165"/>
+<area shape="rect" id="node3" href="$exact__diagonalization_8hpp.html" title="Contains the the methods for exact diagonalization. " alt="" coords="232,109,453,165"/>
+<area shape="rect" id="node4" href="$kpm__geo_8hpp.html" title="Header defining the class kpm_geom. This class is responsible for storing and handling the data assoc..." alt="" coords="478,109,666,165"/>
+<area shape="rect" id="node8" href="$uck__tb__operator_8hpp.html" title="This Class is the responsible for handling the tight&#45;binding operator. The tight&#45;binding operator con..." alt="" coords="691,109,880,165"/>
+<area shape="rect" id="node5" href="$kpm__methods2D_8hpp_source.html" title="/data/jgarcia/linQT\l/git_space/working_directory\l/include/kpm_methods2D.hpp" alt="" coords="469,213,664,269"/>
+<area shape="rect" id="node7" href="$kpm__methods1D_8hpp_source.html" title="/data/jgarcia/linQT\l/git_space/working_directory\l/include/kpm_methods1D.hpp" alt="" coords="688,213,883,269"/>
+<area shape="rect" id="node6" href="$kpm__methods_8hpp_source.html" title="/data/jgarcia/linQT\l/git_space/working_directory\l/include/kpm_methods.hpp" alt="" coords="473,317,661,373"/>
 </map>

@@ -1,4 +1,4 @@
 var searchData=
 [
-  ['complexmatrix',['ComplexMatrix',['../classsparse_1_1ComplexMatrix.html',1,'sparse']]]
+  ['bandstructure',['BandStructure',['../classqt_1_1BandStructure.html',1,'qt']]]
 ];

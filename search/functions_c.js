@@ -1,7 +1,6 @@
 var searchData=
 [
-  ['numberofkpoints',['NumberOfKPoints',['../structqt_1_1kpm_1_1geo_1_1params.html#adcc44570a07ff618bdb0727679fddd64',1,'qt::kpm::geo::params']]],
-  ['numberofunitcells',['NumberOfUnitCells',['../structqt_1_1kpm_1_1geo_1_1params.html#a8095078a00fccebcc138478c471e12b1',1,'qt::kpm::geo::params']]],
-  ['numofcols',['NumOfCols',['../classqt_1_1DenseMatrix.html#ad5044eb4c1c7a9c512b945cd80f2b3a2',1,'qt::DenseMatrix']]],
-  ['numofrows',['NumOfRows',['../classqt_1_1DenseMatrix.html#a734b4333bdad657a8ec9bc34cb502550',1,'qt::DenseMatrix']]]
+  ['operator_28_29',['operator()',['../classqt_1_1DenseMatrix.html#a2fb6e1e186ba28ae2aef25a8cb36218e',1,'qt::DenseMatrix::operator()(const integer i, const integer j) const '],['../classqt_1_1DenseMatrix.html#a06464069a690c1a628e01b902aa2410f',1,'qt::DenseMatrix::operator()(const integer i, const integer j)']]],
+  ['orbitalspercell',['OrbitalsPercell',['../structqt_1_1kpm_1_1geo_1_1params.html#af2eafe9d21ca6b1fd6a51a76e4b187ef',1,'qt::kpm::geo::params']]],
+  ['outputname',['OutputName',['../classqt_1_1BandStructure.html#aa008bc924f4ecf19e4da948c41da8cfa',1,'qt::BandStructure::OutputName()'],['../structqt_1_1kpm_1_1mom_1_1params.html#a67d32b2a5236ba4a6b8b3824d53c4890',1,'qt::kpm::mom::params::OutputName()']]]
 ];

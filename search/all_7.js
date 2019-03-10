@@ -1,4 +1,6 @@
 var searchData=
 [
-  ['hermitianconjugate',['HermitianConjugate',['../classqt_1_1DenseMatrix.html#a8b7decf0e5f81fd1356b609a336d9ab4',1,'qt::DenseMatrix']]]
+  ['index',['index',['../namespaceqt.html#a846ecdfdec53b1821a9d56e80489a0fe',1,'qt']]],
+  ['integer',['integer',['../namespaceqt.html#ab04c718a6df41a1b3eb02d653cf14c35',1,'qt']]],
+  ['integervector',['IntegerVector',['../namespaceqt.html#abfecec294b27c34cf18cbccb2bc6c671',1,'qt']]]
 ];

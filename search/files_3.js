@@ -1,4 +1,4 @@
 var searchData=
 [
-  ['memory_2ehpp',['memory.hpp',['../memory_8hpp.html',1,'']]]
+  ['exact_5fdiagonalization_2ehpp',['exact_diagonalization.hpp',['../exact__diagonalization_8hpp.html',1,'']]]
 ];

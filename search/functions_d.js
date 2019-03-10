@@ -1,6 +1,9 @@
 var searchData=
 [
-  ['operator_28_29',['operator()',['../classqt_1_1DenseMatrix.html#a2fb6e1e186ba28ae2aef25a8cb36218e',1,'qt::DenseMatrix::operator()(const integer i, const integer j) const '],['../classqt_1_1DenseMatrix.html#a06464069a690c1a628e01b902aa2410f',1,'qt::DenseMatrix::operator()(const integer i, const integer j)']]],
-  ['orbitalspercell',['OrbitalsPercell',['../structqt_1_1kpm_1_1geo_1_1params.html#af2eafe9d21ca6b1fd6a51a76e4b187ef',1,'qt::kpm::geo::params']]],
-  ['outputname',['OutputName',['../structqt_1_1kpm_1_1mom_1_1params.html#a67d32b2a5236ba4a6b8b3824d53c4890',1,'qt::kpm::mom::params']]]
+  ['params',['params',['../structqt_1_1kpm_1_1geo_1_1params.html#a63159037b4349d39152374e587711d7a',1,'qt::kpm::geo::params::params()'],['../structqt_1_1kpm_1_1kernel_1_1params.html#a0f4c0100919f37b962a55f415ceacfed',1,'qt::kpm::kernel::params::params()'],['../structqt_1_1kpm_1_1mom_1_1params.html#a2669ffb15b08153fa737f23a9bcdbb57',1,'qt::kpm::mom::params::params()']]],
+  ['pathkpoint',['PathKpoint',['../classqt_1_1BandStructure.html#adc07ab2b6680821970ee817a3c0d2539',1,'qt::BandStructure::PathKpoint(integer pid, integer i)'],['../classqt_1_1BandStructure.html#a2d035baac01c45e9fa4783dca6a53791',1,'qt::BandStructure::PathKpoint(integer pid)']]],
+  ['print',['Print',['../classqt_1_1DenseMatrix.html#a7332d8d460fa4e4147b7b3b9697c4ab3',1,'qt::DenseMatrix::Print()'],['../classqt_1_1TBOp.html#a106f6ff534b565db54b8fbf6f77e8ba1',1,'qt::TBOp::Print()']]],
+  ['printkpath',['PrintKpath',['../classqt_1_1BandStructure.html#a1a11a60bb96220dd86f7df64b145a4cc',1,'qt::BandStructure']]],
+  ['printparams',['PrintParams',['../structqt_1_1kpm_1_1geo_1_1params.html#aa54dc50a77053639ef7d6670e65339fd',1,'qt::kpm::geo::params::PrintParams()'],['../structqt_1_1kpm_1_1kernel_1_1params.html#a7aecdbf94cd6deafc8804358beff8cfe',1,'qt::kpm::kernel::params::PrintParams()'],['../structqt_1_1kpm_1_1mom_1_1params.html#a6fbb95beb98dd2a33a3027dd407b74da',1,'qt::kpm::mom::params::PrintParams()'],['../structqt_1_1kpm_1_1mom1D_1_1params.html#a1a3db956bbbf053f29be597472740e23',1,'qt::kpm::mom1D::params::PrintParams()'],['../structqt_1_1kpm_1_1mom2D_1_1params.html#a88362908cc3a711729f80535d135145b',1,'qt::kpm::mom2D::params::PrintParams()']]],
+  ['projector',['Projector',['../classqt_1_1BandStructure.html#ab3a0d01deabf30dc8b1075caceb60f33',1,'qt::BandStructure']]]
 ];

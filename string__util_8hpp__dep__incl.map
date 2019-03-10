@@ -1,13 +1,17 @@
-<map id="/data/jgarcia/linQT/linQT.0.0.03/include/string_util.hpp" name="/data/jgarcia/linQT/linQT.0.0.03/include/string_util.hpp">
-<area shape="rect" id="node2" href="$parser_8hpp.html" title="This header defines the parsing functions of the code. They are mostly used to extract parameters fro..." alt="" coords="403,109,546,165"/>
-<area shape="rect" id="node3" href="$kpm_8hpp.html" title="Header defining the class kpm_geom. This class is responsible for storing and handling the data assoc..." alt="" coords="142,213,284,269"/>
-<area shape="rect" id="node5" href="$kpm__mom_8hpp.html" title="This header defines the class mom. This class contains the essential for storing and handling the dat..." alt="" coords="167,317,310,373"/>
-<area shape="rect" id="node7" href="$kpm__methods1D_8hpp_source.html" title="/data/jgarcia/linQT\l/linQT.0.0.03/include\l/kpm_methods1D.hpp" alt="" coords="555,525,706,581"/>
-<area shape="rect" id="node8" href="$kpm__methods_8hpp_source.html" title="/data/jgarcia/linQT\l/linQT.0.0.03/include\l/kpm_methods.hpp" alt="" coords="559,629,702,685"/>
-<area shape="rect" id="node10" href="$kpm__methods2D_8hpp_source.html" title="/data/jgarcia/linQT\l/linQT.0.0.03/include\l/kpm_methods2D.hpp" alt="" coords="380,525,531,581"/>
-<area shape="rect" id="node11" href="$kpm__geo_8hpp.html" title="Header defining the class kpm_geom. This class is responsible for storing and handling the data assoc..." alt="" coords="411,421,554,477"/>
-<area shape="rect" id="node12" href="$uck__tb__operator_8hpp.html" title="This Class is the responsible for handling the tight&#45;binding operator. The tight&#45;binding operator con..." alt="" coords="512,317,656,373"/>
-<area shape="rect" id="node4" href="$kpm__kernel_8hpp_source.html" title="/data/jgarcia/linQT\l/linQT.0.0.03/include\l/kpm_kernel.hpp" alt="" coords="26,525,168,581"/>
-<area shape="rect" id="node6" href="$kpm__mom1D_8hpp_source.html" title="/data/jgarcia/linQT\l/linQT.0.0.03/include\l/kpm_mom1D.hpp" alt="" coords="192,421,335,477"/>
-<area shape="rect" id="node9" href="$kpm__mom2D_8hpp_source.html" title="/data/jgarcia/linQT\l/linQT.0.0.03/include\l/kpm_mom2D.hpp" alt="" coords="26,421,168,477"/>
+<map id="/data/jgarcia/linQT/git_space/working_directory/include/string_util.hpp" name="/data/jgarcia/linQT/git_space/working_directory/include/string_util.hpp">
+<area shape="rect" id="node2" href="$parser_8hpp.html" title="This header defines the parsing functions of the code. They are mostly used to extract parameters fro..." alt="" coords="779,109,967,165"/>
+<area shape="rect" id="node3" href="$band__structure_8hpp.html" title="A class used to compute band structures, and different types of proyections. This class assumes a exa..." alt="" coords="5,213,193,269"/>
+<area shape="rect" id="node4" href="$tb__operator_8hpp.html" title="This Class is the responsible for handling the tight&#45;binding operator. The tight&#45;binding operator con..." alt="" coords="511,317,699,373"/>
+<area shape="rect" id="node6" href="$kpm__geo_8hpp.html" title="Header defining the class kpm_geom. This class is responsible for storing and handling the data assoc..." alt="" coords="779,421,967,477"/>
+<area shape="rect" id="node7" href="$kpm__methods2D_8hpp_source.html" title="/data/jgarcia/linQT\l/git_space/working_directory\l/include/kpm_methods2D.hpp" alt="" coords="643,525,838,581"/>
+<area shape="rect" id="node8" href="$kpm__methods_8hpp_source.html" title="/data/jgarcia/linQT\l/git_space/working_directory\l/include/kpm_methods.hpp" alt="" coords="392,629,580,685"/>
+<area shape="rect" id="node9" href="$kpm__methods1D_8hpp_source.html" title="/data/jgarcia/linQT\l/git_space/working_directory\l/include/kpm_methods1D.hpp" alt="" coords="1359,525,1554,581"/>
+<area shape="rect" id="node11" href="$kpm_8hpp.html" title="Header defining the class kpm_geom. This class is responsible for storing and handling the data assoc..." alt="" coords="991,213,1179,269"/>
+<area shape="rect" id="node13" href="$kpm__mom_8hpp.html" title="This header defines the class mom. This class contains the essential for storing and handling the dat..." alt="" coords="991,317,1179,373"/>
+<area shape="rect" id="node16" href="$uck__tb__operator_8hpp.html" title="This Class is the responsible for handling the tight&#45;binding operator. The tight&#45;binding operator con..." alt="" coords="1518,317,1707,373"/>
+<area shape="rect" id="node5" href="$dense__tb__operator_8hpp.html" title="This Class is the responsible for handling the tight&#45;binding operator. The tight&#45;binding operator con..." alt="" coords="269,421,471,477"/>
+<area shape="rect" id="node10" href="$sparse__tb__operator_8hpp_source.html" title="/data/jgarcia/linQT\l/git_space/working_directory\l/include/sparse_tb_operator.hpp" alt="" coords="496,421,703,477"/>
+<area shape="rect" id="node12" href="$kpm__kernel_8hpp_source.html" title="/data/jgarcia/linQT\l/git_space/working_directory\l/include/kpm_kernel.hpp" alt="" coords="1123,525,1311,581"/>
+<area shape="rect" id="node14" href="$kpm__mom1D_8hpp_source.html" title="/data/jgarcia/linQT\l/git_space/working_directory\l/include/kpm_mom1D.hpp" alt="" coords="1255,421,1443,477"/>
+<area shape="rect" id="node15" href="$kpm__mom2D_8hpp_source.html" title="/data/jgarcia/linQT\l/git_space/working_directory\l/include/kpm_mom2D.hpp" alt="" coords="991,421,1179,477"/>
 </map>

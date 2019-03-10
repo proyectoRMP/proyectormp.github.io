@@ -1,6 +1,6 @@
 var searchData=
 [
-  ['index',['index',['../namespaceqt.html#a846ecdfdec53b1821a9d56e80489a0fe',1,'qt']]],
-  ['integer',['integer',['../namespaceqt.html#ab04c718a6df41a1b3eb02d653cf14c35',1,'qt']]],
-  ['integervector',['IntegerVector',['../namespaceqt.html#abfecec294b27c34cf18cbccb2bc6c671',1,'qt']]]
+  ['jacksonfunc',['JacksonFunc',['../namespaceqt_1_1kpm_1_1kernel.html#a9ff4440d22a5f085170382867e94f25b',1,'qt::kpm::kernel']]],
+  ['jacksonmom4res',['JacksonMom4Res',['../namespaceqt_1_1kpm_1_1kernel.html#ad03346074fccde4bafdb760010b76106',1,'qt::kpm::kernel']]],
+  ['jacksonres',['JacksonRes',['../namespaceqt_1_1kpm_1_1kernel.html#a3ee5912f23b1c1a0efa8eba0173bff04',1,'qt::kpm::kernel']]]
 ];

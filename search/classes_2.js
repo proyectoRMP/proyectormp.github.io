@@ -1,11 +1,8 @@
 var searchData=
 [
-  ['params',['params',['../structqt_1_1supercell_1_1params.html',1,'qt::supercell']]],
-  ['params',['params',['../structqt_1_1kpm_1_1kernel_1_1params.html',1,'qt::kpm::kernel']]],
-  ['params',['params',['../structqt_1_1kpm_1_1geo_1_1params.html',1,'qt::kpm::geo']]],
-  ['params',['params',['../structqt_1_1kpm_1_1methods2D_1_1params.html',1,'qt::kpm::methods2D']]],
-  ['params',['params',['../structqt_1_1kpm_1_1mom_1_1params.html',1,'qt::kpm::mom']]],
-  ['params',['params',['../structqt_1_1kpm_1_1mom1D_1_1params.html',1,'qt::kpm::mom1D']]],
-  ['params',['params',['../structqt_1_1kpm_1_1mom2D_1_1params.html',1,'qt::kpm::mom2D']]],
-  ['params',['params',['../structqt_1_1kpm_1_1methods1D_1_1params.html',1,'qt::kpm::methods1D']]]
+  ['densematrix',['DenseMatrix',['../classqt_1_1DenseMatrix.html',1,'qt']]],
+  ['densematrix_3c_20complex_20_3e',['DenseMatrix&lt; complex &gt;',['../classqt_1_1DenseMatrix.html',1,'qt']]],
+  ['densematrix_3c_20real_20_3e',['DenseMatrix&lt; real &gt;',['../classqt_1_1DenseMatrix.html',1,'qt']]],
+  ['densetbop',['DenseTBOp',['../classqt_1_1DenseTBOp.html',1,'qt']]],
+  ['diaghandler',['DiagHandler',['../classqt_1_1DiagHandler.html',1,'qt']]]
 ];

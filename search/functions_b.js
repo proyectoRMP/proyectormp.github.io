@@ -1,9 +1,10 @@
 var searchData=
 [
-  ['malloc',['malloc',['../namespaceqt.html#a0364d84d2291a818861fbd0461b84b42',1,'qt::malloc(int **Ptr, size_t size)'],['../namespaceqt.html#afe625bac7986f55c4eefa83ef9b378f9',1,'qt::malloc(std::complex&lt; double &gt; **Ptr, size_t size)']]],
-  ['maxmoments',['MaxMoments',['../structqt_1_1kpm_1_1kernel_1_1params.html#a7d60d488e31f5157f78705e4708e9ce7',1,'qt::kpm::kernel::params']]],
-  ['minimumkernelresolution',['MinimumKernelResolution',['../structqt_1_1kpm_1_1kernel_1_1params.html#ace87f80786e8bd24f722ea91be01f03e',1,'qt::kpm::kernel::params']]],
-  ['mom',['Mom',['../structqt_1_1kpm_1_1mom1D_1_1params.html#acd684e0fa3747ed8232085c6cabb0ee7',1,'qt::kpm::mom1D::params::Mom()'],['../structqt_1_1kpm_1_1mom2D_1_1params.html#afc66f67f9ae41dc8bf6c6cd934a9d474',1,'qt::kpm::mom2D::params::Mom()']]],
-  ['mom4res',['Mom4Res',['../namespaceqt_1_1kpm_1_1kernel.html#ab91aa8f0921479216ff35fa6129e169d',1,'qt::kpm::kernel']]],
-  ['multiply',['Multiply',['../classqt_1_1UnitCellK__TBOp.html#a8f9d87b31afb8d08a295e3112ba9b6b4',1,'qt::UnitCellK_TBOp']]]
+  ['numberofhoppings',['NumberOfHoppings',['../classqt_1_1TBOp.html#a20aa5fc77e5498333acacc2ae955a80a',1,'qt::TBOp']]],
+  ['numberofkpoints',['NumberOfKPoints',['../structqt_1_1kpm_1_1geo_1_1params.html#adcc44570a07ff618bdb0727679fddd64',1,'qt::kpm::geo::params::NumberOfKPoints()'],['../classqt_1_1BandStructure.html#a62b2418731a534a1bbbcea2f4d2d0c37',1,'qt::BandStructure::NumberOfKpoints()']]],
+  ['numberofpaths',['NumberOfPaths',['../classqt_1_1BandStructure.html#a40512d730f57b6297deb295f3f315ee1',1,'qt::BandStructure']]],
+  ['numberofprojectors',['NumberOfProjectors',['../classqt_1_1BandStructure.html#a77ed232a7848c835c0c44fc7c8f58327',1,'qt::BandStructure']]],
+  ['numberofunitcells',['NumberOfUnitCells',['../structqt_1_1kpm_1_1geo_1_1params.html#a8095078a00fccebcc138478c471e12b1',1,'qt::kpm::geo::params']]],
+  ['numofcols',['NumOfCols',['../classqt_1_1DenseMatrix.html#ad5044eb4c1c7a9c512b945cd80f2b3a2',1,'qt::DenseMatrix']]],
+  ['numofrows',['NumOfRows',['../classqt_1_1DenseMatrix.html#a734b4333bdad657a8ec9bc34cb502550',1,'qt::DenseMatrix']]]
 ];

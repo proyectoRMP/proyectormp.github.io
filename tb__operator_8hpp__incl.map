@@ -1,0 +1,9 @@
+<map id="/data/jgarcia/linQT/git_space/working_directory/include/tb_operator.hpp" name="/data/jgarcia/linQT/git_space/working_directory/include/tb_operator.hpp">
+<area shape="rect" id="node7" href="$types__definitions_8hpp_source.html" title="types_definitions.hpp" alt="" coords="88,191,233,218"/>
+<area shape="rect" id="node10" href="$parser_8hpp.html" title="This header defines the parsing functions of the code. They are mostly used to extract parameters fro..." alt="" coords="996,109,1079,136"/>
+<area shape="rect" id="node20" href="$tb__operator__error_8hpp_source.html" title="tb_operator_error.hpp" alt="" coords="26,109,172,136"/>
+<area shape="rect" id="node21" href="$vector__algorithm_8hpp_source.html" title="vector_algorithm.hpp" alt="" coords="421,109,564,136"/>
+<area shape="rect" id="node22" href="$supercell_8hpp_source.html" title="supercell.hpp" alt="" coords="196,109,295,136"/>
+<area shape="rect" id="node13" href="$string__util_8hpp.html" title="This header defines some string utilities which are mostly used by the functions defined in parser..." alt="" coords="1596,191,1698,218"/>
+<area shape="rect" id="node15" href="$parser__error_8hpp.html" title="This header defines the error handlers of the parsing functions defined in parser.hpp . " alt="" coords="832,191,948,218"/>
+</map>
